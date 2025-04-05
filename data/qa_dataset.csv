@@ -1,0 +1,829 @@
+question,answer
+What is 'natural language processing' (NLP) in machine learning?,"Natural language processing (NLP) in machine learning is a field focused on the interaction between computers and humans through natural language, aiming to read, decipher, and understand human languages in a valuable way."
+Does Miniconda come with all the packages that regular Anaconda has?,"No, Miniconda does not come with all the packages that regular Anaconda has. Packages need to be installed as required."
+Can the inverse matrix A−1 be used to solve Ax = b for multiple values of b?,"Yes, if the inverse matrix A−1 exists, it can theoretically be used to solve the equation Ax = b for many values of b."
+Is it necessary to be in the 'ml' environment when coding along with the book?,"Yes, it is necessary to always be in the 'ml' environment when coding along with the book【19†source】."
+What is 'boosting' in machine learning?,"Boosting in machine learning is an ensemble technique that sequentially builds models, each new model attempting to correct the errors of the previous ones."
+Why does the author of AAAMLP prefer to use an IDE/text editor over jupyter notebooks for machine learning projects?,"The author prefers an IDE/text editor because it allows for creating a classification framework where most problems become plug n’ play, enabling training of a model with minimal changes to the code. Jupyter notebooks are used mainly for data exploration and plotting charts and graphs."
+What is the 'F1 score' in machine learning?,"The F1 score in machine learning is a measure of a model's accuracy, calculated as the harmonic mean of precision and recall."
+What is 'model stacking' in machine learning?,"Model stacking in machine learning involves training a new model to combine the predictions of several other models, improving the predictive performance over any single model."
+What is the 'AI effect'?,"The 'AI effect' refers to the phenomenon where once a task is achieved by AI, it's no longer considered to be an example of 'real' intelligence."
+What is the relationship between a prior and posterior in Bayesian learning?,"In Bayesian learning, the posterior pdf is proportional to the product of the prior and the likelihood, used for inference about a parameter."
+What is the dot product and its significance in vector spaces?,The dot product is an inner product in Euclidean space that measures the cosine of the angle between two non-zero vectors and their magnitudes. It is crucial in defining angles and orthogonality in vector spaces.
+"What are the limitations of hard-coded knowledge in AI, as demonstrated by projects like Cyc?","Hard-coded knowledge systems struggle with complex, real-world scenarios and can fail at understanding context, as demonstrated by Cyc's inability to process a story involving a person shaving with an electric razor."
+What does it mean for matrices to be similar?,Two matrices A and A˜ are similar if there exists a regular matrix S such that A˜ = S−1AS. Similar matrices represent the same linear transformation under a change of basis.
+What does it mean to express a column as a linear combination of other columns in the context of solving linear equations?,"Expressing a column as a linear combination of other columns in the context of solving linear equations means to find a set of scalars that, when multiplied with the respective columns and added together, result in the column in question. This represents a relationship between the columns and is used to find solutions to the system."
+What is a linearly independent set of vectors?,A set of vectors is linearly independent if no vector in the set is a linear combination of the others.
+How should readers approach 'Machine Learning for Humans'?,"Readers can take a T-shaped approach, focus on specific interests, or skim for high-level concepts."
+What is a linear combination?,A linear combination is an expression constructed from a set of terms by multiplying each term by a constant and adding the results.
+What are features in a regression problem?,"Features in a regression problem are the relevant information (numerical or categorical) used to predict the target output, like education or job title for predicting income."
+What is an example of input and output in regression?,An example is using years of higher education (input) to predict annual income (output).
+What is the central approach of representation learning?,The central approach of representation learning is to use machine learning to discover both the mapping from representation to output and the representation itself.
+What is the maximum likelihood estimate in the context of statistical learning?,The maximum likelihood estimate is the parameter that maximizes the likelihood of the data; it's the joint density of the data evaluated at the points.
+How does the implementation of weighted precision handle classes with zero samples?,"The implementation of weighted precision handles classes with zero samples by weighting the precision score by the class's sample count, which would naturally be zero for a class with no samples【41†source】."
+Define the rank of a matrix.,The rank of a matrix is the maximum number of linearly independent row or column vectors in the matrix.
+What is the difference between 'classification' and 'regression' in machine learning?,"In machine learning, classification is about predicting a label, while regression is about predicting a quantity."
+What functionality does depth provide in deep learning models?,"Depth in deep learning models allows for the execution of more instructions in sequence, enabling the computer to build complex concepts out of simpler ones."
+Explain the concept of dimension in vector spaces.,"The dimension of a vector space is the number of vectors in a basis of the space, indicating its 'size' or 'complexity'."
+What is 'imbalanced data' in machine learning?,"Imbalanced data in machine learning refers to a situation where the number of observations per class is not equally distributed, often leading to challenges in model training."
+What is the Gram-Schmidt process?,The Gram-Schmidt process is a method for orthonormalizing a set of vectors in an inner product space.
+How does the calculation of micro precision differ for each class in a multi-class problem?,"For micro precision, all classes except the current one are considered negative and the true positives and false positives are summed up across all classes before being used to calculate the overall precision【43†source】."
+Why should the visualization of variables be adapted to their types?,Variable visualization should be adapted to their types because qualitative data require different plotting methods compared to quantitative data to effectively convey information.
+What is a particular solution to a system of linear equations?,"A particular solution to a system of linear equations is a specific solution set that satisfies the equations, usually obtained by assigning specific values to the unknowns to achieve the constant vector from a linear combination of the columns of the matrix."
+What distinguishes supervised learning from unsupervised learning?,"Supervised learning involves predicting an output or response variable based on input features, with known output values in the training data. Unsupervised learning, in contrast, focuses on understanding the structure of data without predefined output variables, often to find patterns or groupings within the data."
+What is 'ensemble learning' in machine learning?,"Ensemble learning in machine learning is a technique where multiple models are combined to improve the overall performance, often leading to better predictive performance than any single model."
+What is an eigenvalue of a matrix?,"An eigenvalue of a matrix is a scalar λ such that there exists a non-zero vector v satisfying the equation Av = λv, where A is the matrix and v is known as the eigenvector associated with λ."
+Define the dot product of two vectors.,The dot product of two vectors is the sum of the products of their corresponding entries.
+What is 'batch normalization' in deep learning?,"Batch normalization in deep learning is a technique to provide any layer in a neural network with inputs that are zero mean/unit variance, helping to stabilize the learning process and reduce the number of training epochs required to train deep networks."
+Can you always expect a unique solution to a system of linear equations?,"No, you cannot always expect a unique solution to a system of linear equations. Depending on the system, there might be no solution, one unique solution, or infinitely many solutions."
+How should one view knowledge in the context of AI and machine learning?,"Knowledge in AI and machine learning should be viewed as a semantic tree, focusing on fundamental principles before delving into details."
+What is a scalar?,"A scalar is a single number, in contrast to most of the other elements of algebra that are arrays of multiple numbers."
+What is computational neuroscience?,"Computational neuroscience is a field that focuses on building accurate models of how the brain works, distinct from the aims of deep learning."
+"In AAAMLP, what is the accuracy score of fold 0 when running the train.py script with argparse for that specific fold?",The accuracy score of fold 0 when running the train.py script with argparse for that fold is approximately 0.8657.
+What does the author of AAAMLP suggest for tracking improvements in models?,The author suggests using git to track improvements in models.
+What is 'multilabel classification' in machine learning?,Multilabel classification in machine learning is a type of classification where each instance can belong to multiple classes simultaneously.
+Why is deep learning considered a part of AI?,"Deep learning is a type of machine learning, which is a technique that allows AI systems to improve with experience and data."
+What is the 'learning rate' in machine learning?,"The learning rate in machine learning is a hyperparameter that determines the step size at each iteration while moving toward a minimum of a loss function, crucial for the convergence of the training process."
+What are predictions regarding the timeline for AI surpassing human capabilities?,"Predictions vary, with some experts believing AI could outperform humans in all tasks within 45 years, while others predict longer timelines or never."
+What are the main components of supervised machine learning?,"Components include learning from labeled data, regression, classification, learning model parameters, overfitting, and regularization."
+What is 'multiclass classification' in machine learning?,"Multiclass classification in machine learning is a problem where there are more than two classes, and the goal is to classify instances into one of these classes."
+What is 'mean absolute error' (MAE) in machine learning?,"Mean absolute error (MAE) in machine learning is a measure of errors between paired observations expressing the same phenomenon, calculated as the average of the absolute errors."
+What is linear regression in machine learning?,"Linear regression is a method to predict a target value based on input data, assuming a linear relationship between input and output variables."
+What is a vector?,"A vector is an array of numbers arranged in order, which can be used to store data or as parameters in functions."
+What is 'sequential model building' in machine learning?,"Sequential model building in machine learning is a process where models are built one after the other, with each model being refined based on the performance of the previous one."
+What is the Dirac distribution?,"The Dirac distribution is used to specify that all mass in a probability distribution clusters around a single point, and it is defined using the Dirac delta function【25†source】."
+What is the role of the parameter β in the context of the normal distribution?,"In the context of the normal distribution, the parameter β controls the precision or inverse variance of the distribution and is used for computational efficiency when frequently evaluating the probability density function with different parameter values【25†source】."
+What is a multilayer perceptron (MLP)?,"A multilayer perceptron is a mathematical function mapping a set of input values to output values, which is formed by composing many simpler functions providing new representations of the input."
+"What is a tensor in the context of the book 'Deep Learning' by Ian Goodfellow, Yoshua Bengio, and Aaron Courville?","In the book 'Deep Learning', a tensor is defined as an array of numbers arranged on a regular grid with a variable number of axes, used for cases where we need an array with more than two axes."
+How is the cross-entropy risk defined in Bayesian learning?,The cross-entropy risk is defined as the negative expected logarithm of the probability density function used to approximate the true unknown function.
+What are the components of supervised machine learning?,"Components of supervised machine learning include learning from labeled data, regression, classification, parameter learning, overfitting, and regularization."
+What does it mean for vectors to be linearly independent?,Vectors are linearly independent if no vector in the set can be written as a linear combination of the others.
+What is the difference between supervised and human learning?,"Supervised learning involves machines identifying patterns in data to form heuristics, while human learning happens in a biological brain but with similar goals."
+What is 'dimensionality reduction' in machine learning?,"Dimensionality reduction in machine learning refers to techniques that reduce the number of input variables in a dataset, simplifying models and reducing the computational cost."
+What is the role of a validation set in machine learning?,"A validation set in machine learning is used to evaluate a model during training, providing a check against overfitting and helping in hyperparameter tuning."
+What does 'bias' mean in the context of machine learning?,"In machine learning, bias refers to the error due to overly simplistic assumptions in the learning algorithm, which can lead to underfitting."
+What is the importance of converting string type targets to integers in the MNIST dataset example?,Converting string type targets to integers is important because targets should be in a numerical form for machine learning models to process them.
+What is the significance of the score in statistical learning?,The score is the gradient of the logarithm of the likelihood with respect to the parameter and is used in the process of finding the maximum likelihood estimator.
+What does a normal linear model represent?,"A normal linear model is a linear model with normal error terms, where the response Y depends on a p-dimensional explanatory variable x via a linear relationship."
+How can one address the challenge of finding the optimal number of clusters in k-means clustering?,"The optimal number of clusters in k-means clustering can be found by using cross-validation, which is discussed later in the book."
+How does deep learning address the issue of representation in AI?,"Deep learning addresses representation issues by introducing representations that are expressed in terms of other, simpler representations."
+Define the concept of an orthonormal set.,An orthonormal set is a set of vectors that are both orthogonal to each other and each have unit length.
+What is 'data imbalancing' and how is it addressed in machine learning?,"Data imbalancing in machine learning refers to a situation where the number of observations in each class is not evenly distributed. It is addressed using techniques like resampling, generating synthetic samples, or modifying classification algorithms."
+What does a linear model in statistical learning represent?,"In statistical learning, a linear model represents a relationship where the response Y depends linearly on a p-dimensional explanatory variable x."
+What was a notable achievement by Google in AI in 2015?,"In 2015, Google trained a conversational agent (AI) capable of convincingly interacting with humans, discussing morality, expressing opinions, and answering factual questions."
+What is logistic regression in classification?,"Logistic regression in classification predicts the probability of a target variable belonging to a certain class, like estimating the likelihood of a loan being fraudulent."
+What features can the first hidden layer of a deep learning model typically identify from pixels?,"Given the pixels, the first hidden layer can easily identify edges by comparing the brightness of neighboring pixels."
+What is 'data partitioning' in machine learning?,"Data partitioning in machine learning refers to the process of dividing a dataset into separate sets to prevent issues like model overfitting, and to provide a more accurate evaluation of the model's performance."
+What is 'data imputation' in machine learning?,Data imputation in machine learning refers to the process of replacing missing data with substituted values.
+"After improving the script with argparse, how can you now run the train.py script for a specific fold as per AAAMLP?","You can run the train.py script for a specific fold by using the command 'python train.py --fold 0', replacing '0' with the desired fold number."
+What are 'decision boundaries' in machine learning?,Decision boundaries in machine learning are the surfaces that separate different predicted classes. The decision boundary is the region of a problem space in which the output label of a classifier is ambiguous.
+What is 'data leakage' in machine learning?,"Data leakage in machine learning occurs when information from outside the training dataset is used to create the model, leading to a model that performs artificially well on the training data."
+How does supervised machine learning differ from human learning?,"Supervised machine learning identifies patterns in data using computer hardware, whereas human learning occurs in a biological brain."
+How is the exponential model used in the context of statistical learning?,"In the exponential model, the best approximating function within the family of exponential distributions is selected to maximize the likelihood of the data."
+How is AI used in law enforcement and space exploration?,AI is utilized in law enforcement for processing body camera footage and by the Mars rover Curiosity for autonomously selecting soil and rock samples.
+What are the examples of datasets commonly used for unsupervised machine learning?,Datasets for customer segmentation and credit card fraud detection are common examples of unsupervised machine learning datasets.
+Which libraries did the author use for t-SNE decomposition in the MNIST dataset?,"The author used matplotlib, seaborn, numpy, pandas, and scikit-learn."
+What is the transpose of a matrix?,"The transpose of a matrix is the mirror image of the matrix across a diagonal line, called the main diagonal."
+What does the variance of a probability distribution measure?,The variance of a probability distribution measures how much the values of a function of a random variable differ from the expected value when the variable is sampled from its probability distribution【25†source】.
+Define a scalar multiplication of a vector.,"Scalar multiplication of a vector is the operation of multiplying a vector by a scalar, scaling its magnitude."
+What should you do if some packages are not available in the conda repository?,"If some packages are not available in the conda repository, you should install them using pip, which is the most preferred way according to the book."
+What are examples of regression and classification in supervised learning?,"In supervised learning, regression might predict housing prices, while classification could determine if an image is of a cat or dog."
+What do the 'hidden layers' in a deep learning model do?,The hidden layers in a deep learning model extract increasingly abstract features from the input data.
+What is the significance of data representation in machine learning?,"The representation of data is crucial in machine learning, as it heavily influences the performance of algorithms. Effective representation is key to solving AI tasks and varies depending on the specific problem."
+Define eigenvectors of a matrix.,Eigenvectors of a matrix are non-zero vectors that change by only a scalar factor when that matrix is applied to them.
+What is a 'decision tree' in machine learning?,"A decision tree in machine learning is a flowchart-like tree structure where an internal node represents a feature, a branch represents a decision rule, and each leaf node represents the outcome."
+How can supervised problems be divided in terms of the nature of the target variable?,"• Classification: predicting a category (e.g., dog or cat).
+• Regression: predicting a value (e.g., house prices)."
+How do you initiate the conda environment after installing everything correctly?,You can start the conda environment by typing conda init in the terminal after installing everything correctly.
+What is an autoencoder?,"An autoencoder is a combination of an encoder function that converts input data into a different representation, and a decoder function that converts this new representation back into the original format."
+How is the exponential model used in Bayesian learning?,"In the exponential model, the best approximating function within the family of exponential distributions is selected to maximize the likelihood of the data."
+What is the marginal probability distribution?,The marginal probability distribution is the probability distribution over a subset of variables when the overall probability distribution over a set of variables is known. It can be computed with the sum rule for discrete variables or integration for continuous variables【25†source】.
+What is the 'visible layer' in a deep learning model?,"The visible layer in a deep learning model contains the variables that we are able to observe, typically the raw input data."
+What is machine learning?,"Machine learning is a capability of AI systems to extract patterns from raw data and make decisions, thereby acquiring their own knowledge."
+How does depth enhance the performance in deep learning methods?,"Depth allows the system to execute more sequential instructions, each of which can refer back to results of earlier instructions, providing more computational power."
+What are predictions about AI surpassing human capabilities?,"Predictions vary, with some experts suggesting AI could outperform humans in all tasks within 45 years."
+What is 'grid search' in the context of hyperparameter tuning?,"Grid search in hyperparameter tuning is a method where a set of hyperparameters is systematically worked through, evaluating each combination to determine the best performance."
+Can you give an example of a supervised learning problem?,"Predicting house prices given historical data with various features, or classifying images of cats and dogs knowing the correct labels beforehand."
+What is a multinoulli distribution?,"The multinoulli or categorical distribution is a distribution over a single discrete variable with a finite number of states, parametrized by a vector representing the probability of each state【25†source】."
+What are 'GANs' (Generative Adversarial Networks) in machine learning?,"GANs, or Generative Adversarial Networks, in machine learning are a class of artificial intelligence algorithms used in unsupervised machine learning, implemented by a system of two neural networks contesting with each other in a zero-sum game framework."
+How is AI utilized in law enforcement and on Mars?,AI is used in law enforcement for processing body camera footage and by the Mars rover for autonomously selecting soil and rock samples.
+What is 'reinforcement learning' in machine learning?,"Reinforcement learning in machine learning is a type of dynamic programming that trains algorithms using a system of reward and punishment, focusing on making sequences of decisions."
+What is the difference between covariance and independence?,"Covariance measures how much two values are linearly related to each other, whereas independence is a stronger requirement that excludes any form of relationship, including nonlinear ones, between two variables【25†source】."
+What is 'deep learning' in machine learning?,"Deep learning is a subset of machine learning involving neural networks with many layers, allowing for complex, sophisticated data modeling and analysis."
+What is 'early stopping' in machine learning?,"Early stopping in machine learning is a form of regularization used to avoid overfitting when training a learner with an iterative method, such as gradient descent."
+What did the author demonstrate using the MNIST dataset?,The author demonstrated how to convert a supervised dataset to an unsupervised setting for basic visualization using t-SNE.
+What notable achievement did OpenAI accomplish in 2017?,OpenAI created agents that developed their own language for cooperation and defeated top professionals in 1v1 matches of Dota 2.
+What is the maximum likelihood estimate?,"The maximum likelihood estimate is the parameter that maximizes the likelihood of the data, which is the joint density of the data evaluated at the points."
+What is macro averaged precision?,Macro averaged precision is calculated by determining the precision for all classes individually and then averaging them【39†source】.
+What is 'feature scaling' in machine learning?,Feature scaling in machine learning is a method used to normalize the range of independent variables or features of data.
+Explain the concept of vector addition.,"Vector addition is the operation of adding two vectors together, by adding their corresponding components."
+What is the relationship between the central limit theorem and the normal distribution?,"The central limit theorem states that the sum of many independent random variables tends towards a normal distribution, even if the original variables are not normally distributed, which is why many practical systems can be successfully modeled as normally distributed noise【25†source】."
+How is macro precision calculated in a multi-class classification setup?,"Macro precision is calculated by first considering all classes except the current one as negative, then calculating true positive and false positive for each class individually, and finally, averaging these precisions across all classes【42†source】."
+How is the accuracy_score_v2 function calculated?,"The accuracy_score_v2 function is calculated using the formula (TP + TN) / (TP + TN + FP + FN), where TP is true positives, TN is true negatives, FP is false positives, and FN is false negatives【31†source】."
+What is the bias-variance tradeoff?,The bias-variance tradeoff involves balancing error from model oversimplification (bias) against error from training data sensitivity (variance).
+What is the difference between the standard product and the element-wise product of two matrices?,"The standard product of two matrices results in a new matrix through a specific operation involving rows and columns, whereas the element-wise product, or Hadamard product, is just the product of the individual elements of the two matrices."
+What is 'feature extraction' in machine learning?,Feature extraction in machine learning is the process of reducing the number of resources required to describe a large set of data accurately.
+What is unsupervised learning in machine learning?,Unsupervised learning is a type of machine learning where the algorithm learns patterns from untagged data without any guidance.
+What role does neuroscience play in deep learning?,"Neuroscience serves as an inspiration for deep learning, suggesting models and architectures, but it is not a rigid guide."
+What is a scatterplot and how is it used in data analysis?,A scatterplot is a type of plot that uses dots to represent the values obtained for two different variables plotted along the x and y-axes. It is commonly used to visualize patterns or relationships between two quantitative variables.
+What are the limitations of linear models in AI?,Linear models cannot learn complex functions like the XOR function and have limitations in recognizing patterns in more complex data.
+How are features classified in data science?,"Features are classified as either quantitative (having numerical value, continuous or discrete) or qualitative (categorical or nominal, with fixed categories but no numerical meaning)."
+Which command is used to create a new conda environment?,The command used to create a new conda environment is: conda create -n environment_name python=3.7.6.
+What does the transpose of a matrix represent according to the book 'Deep Learning'?,"The transpose of a matrix is the mirror image of the matrix across the main diagonal, which runs down and to the right from the upper left corner."
+"According to AAAMLP, what is an example of a variable that can be defined in the config.py file?","An example of a variable that can be defined in config.py is TRAINING_FILE, which specifies the path to the training data with folds."
+"What were the earliest models of deep learning, and how were they motivated?","The earliest models, motivated by a neuroscientific perspective, were simple linear models designed to associate input values with an output through learned weights. This was known as cybernetics."
+Define the row space of a matrix.,The row space of a matrix is the set of all possible linear combinations of its row vectors.
+What does the layer's activations store besides information encoding factors of variation?,"Besides information encoding factors of variation, the layer's activations store state information to help execute a program that can make sense of the input."
+What is the principle behind Bayesian learning?,Bayesian learning involves using Bayesian notation to represent different conditional approximating probability densities and true unknown probability densities.
+What is the 'activation function' in neural networks?,"An activation function in neural networks is a mathematical function applied to the output of a neuron, which determines whether it should be activated or not."
+"What type of problems were initially tackled successfully by AI, and what has been a more challenging set of problems?","Initially, AI successfully tackled problems requiring formal, mathematical rules that are difficult for humans but straightforward for computers. More challenging have been intuitive tasks like recognizing spoken words or faces, which are easy for people but hard to formally describe."
+"How does the author of AAAMLP recommend passing arguments, such as fold numbers, into the training script?",The author recommends using the argparse module from the standard Python library to pass arguments like fold numbers to the training script.
+What is the condition necessary for matrix inversion to be applicable?,Matrix inversion is applicable when the matrix inverse A−1 exists.
+What is 'linear regression' in machine learning?,Linear regression in machine learning is a linear approach to modelling the relationship between a scalar response and one or more explanatory variables.
+What is an empirical cumulative distribution function in data visualization?,The empirical cumulative distribution function (ECDF) is a step function that represents the proportion of observations less than or equal to each value in a dataset. It is used to visualize the cumulative distribution of quantitative variables.
+What was the second wave of neural network research known as?,The second wave of neural network research was known as connectionism or parallel distributed processing.
+What topics are covered in the first four chapters of the book?,"The first four chapters cover data reading, structuring, summarization, and visualization using Python's pandas package, the main ingredients of statistical learning, Monte Carlo techniques for simulation, estimation, optimization, and unsupervised learning techniques like density estimation and clustering."
+How can overfitting be addressed in machine learning?,"Overfitting can be addressed by using more training data and regularization, which penalizes models for being overly complex."
+What is an important operation involving matrices that is heavily utilized in mathematical analysis?,Matrix multiplication is an important operation involving matrices that is heavily utilized in mathematical analysis.
+What is 'recurrent neural network' (RNN) in machine learning?,"A recurrent neural network (RNN) in machine learning is a type of artificial neural network where connections between nodes form a directed graph along a temporal sequence, allowing it to exhibit temporal dynamic behavior."
+How do autoencoders ensure that the new representation preserves information?,"Autoencoders are trained to preserve as much information as possible when an input is run through the encoder and then the decoder, while also ensuring the new representation has desirable properties."
+What is the importance of data in machine learning?,"Data is crucial in machine learning as it is used to train models, and the quality and quantity of data can significantly impact the performance of these models."
+How do you activate the new conda environment that you have created?,You can activate the new conda environment using the command: conda activate environment_name.
+Why does the train.py script drop the label column from the dataframe before fitting the model as shown in AAAMLP?,"The label column is dropped from the dataframe because it is the target variable, and the model should be trained only on the input features without the target included."
+"If you face problems with some bash scripts and you are not an Ubuntu user, what does the author suggest?","If you are not an Ubuntu user and face problems with bash scripts, the author suggests installing Ubuntu in a virtual machine or using the Linux shell on Windows."
+What is 'mini-batch gradient descent' in machine learning?,Mini-batch gradient descent in machine learning is a variation of stochastic gradient descent where updates to the parameters are made after computing the gradient of a subset of the data.
+What is 'k-nearest neighbors' (KNN) in machine learning?,"K-nearest neighbors (KNN) in machine learning is a simple algorithm that stores all available cases and classifies new cases based on a similarity measure (e.g., distance functions)."
+What is micro averaged precision?,Micro averaged precision involves calculating the class wise true positives and false positives and then using these to calculate the overall precision【40†source】.
+What is the historical significance of IBM’s Deep Blue system?,"IBM's Deep Blue chess-playing system, which defeated world champion Garry Kasparov in 1997, represented an early success of AI in a formal environment."
+What are support vector machines (SVMs)?,"SVMs are a type of parametric model used for classification tasks, such as identifying images or categorizing reviews, using geometric principles."
+What is the principal components analysis?,Principal components analysis is a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables.
+What is 'data normalization' in machine learning?,Data normalization in machine learning is a process that changes the range of pixel intensity values to help machine learning models learn more effectively.
+How is the identity matrix structured?,The identity matrix has all the entries along the main diagonal as 1 and all other entries as 0.
+What is the 'knowledge base' approach in artificial intelligence?,"This approach involves hard-coding knowledge about the world in formal languages, allowing computers to perform logical inference. However, it hasn't led to major successes in AI."
+How is the sample mean calculated in data science?,"The sample mean is the average of data values, calculated as the sum of all data values divided by the number of values."
+What is the purpose of the DecisionTreeClassifier in the train.py script from AAAMLP?,The DecisionTreeClassifier in the train.py script is used to initialize a simple decision tree classifier from the sklearn library to fit the model on the training data.
+"What is the historical significance of inventors like Pygmalion, Daedalus, and Hephaestus in the context of artificial intelligence?","These mythical figures can be interpreted as legendary inventors, representing early human desires to create intelligent machines or artificial life."
+What is the goal of linear regression?,The goal of linear regression is to predict a target value based on input data using a linear relationship.
+Explain the concept of matrix similarity.,Two matrices are similar if one can be converted into the other via a similarity transformation involving an invertible matrix.
+What is the main idea behind SVMs?,"SVMs focus on maximizing the margin, or the distance to the nearest point on either side of the classification line."
+What is the role of 'activation functions' in neural networks?,"Activation functions in neural networks help determine the output of a node given an input or set of inputs, playing a crucial role in the network's ability to capture complex patterns."
+What is 'hyperparameter' in machine learning?,"A hyperparameter in machine learning is a parameter whose value is set before the learning process begins, and it controls the behavior of the training algorithm."
+What are some decomposition techniques used for making sense of unsupervised problems?,Principal Component Analysis (PCA) and t-distributed Stochastic Neighbour Embedding (t-SNE) are decomposition techniques used for unsupervised problems.
+What will be the name of the environment created using the environment.yml file provided in the book?,The name of the environment created using the environment.yml file provided in the book will be 'ml'.
+How does the representation of data affect machine learning algorithms?,The performance of machine learning algorithms heavily depends on the representation of the data they are given.
+What is 'early stopping' in machine learning?,Early stopping in machine learning is a form of regularization used to avoid overfitting by stopping training when the model's performance on a validation set starts to deteriorate.
+What are some methods for visualizing quantitative variables?,"Quantitative variables can be visualized using methods like boxplots, which represent the five-number summary (minimum, maximum, first, second, and third quartiles), and histograms, which show the distribution of the data across different intervals."
+What is 'data cleaning' in machine learning?,"Data cleaning in machine learning involves correcting or removing corrupt, inaccurate, or irrelevant records from a dataset, improving the quality of the data for analysis."
+Can unsupervised datasets be easily visualized in a two-dimensional setting?,Unsupervised datasets can be visualized in a two-dimensional setting to some extent by using techniques like t-SNE.
+What distinguishes continuous from discrete quantitative features?,"Continuous quantitative features take values in a continuous range, like height or voltage, whereas discrete quantitative features have a countable number of possibilities, like a count."
+What is a potential application for clustering in unsupervised machine learning?,Clustering can be applied to fraud detection in financial firms by dividing transactions into classes such as fraud or genuine.
+Is Miniconda available for multiple operating systems?,"Yes, Miniconda is available for Linux, OSX, and Windows operating systems."
+What is a 'feature' in machine learning?,A feature in machine learning is an individual measurable property or characteristic of a phenomenon being observed.
+What is 'loss function' in machine learning?,"A loss function in machine learning is a method of evaluating how well your algorithm models your dataset. If predictions deviate from actual results, loss function outputs a higher number."
+How are summary statistics for a quantitative feature presented?,"Summary statistics for a quantitative feature include the minimum, maximum, mean, standard deviation, and the three quartiles (25%, 50%, 75%)."
+"In what way is deep learning a type of machine learning, and how does it differ?","Deep learning is a subset of machine learning characterized by learning representations of data as a hierarchy of concepts, where more abstract concepts are computed in terms of less abstract ones."
+How are boxplots useful in comparing a quantitative variable across different levels of a qualitative variable?,Boxplots can be used to compare the distribution of a quantitative variable across different levels or categories of a qualitative variable. Each boxplot represents the distribution of the quantitative variable within a particular category.
+What role does this state information play in the model?,"The state information helps the model to organize its processing, even if it has nothing to do with the content of the input specifically."
+What is the determinant?,"The determinant is a value that can be computed from the elements of a square matrix, which describes certain properties of the matrix."
+What is easier to tackle: a supervised problem or an unsupervised one?,A supervised problem is considerably easier to tackle than an unsupervised one.
+What are the main libraries used for plotting and data manipulation for the MNIST dataset example?,"matplotlib, seaborn for plotting, numpy for handling numerical arrays, pandas for creating dataframes from numerical arrays, and scikit-learn for data and performing t-SNE."
+What data structure is used to track sample counts for each class in weighted precision?,A Python collections Counter object is used to create a dictionary that tracks the sample count for each class when calculating weighted precision【41†source】.
+What are sample quantiles in statistics?,"Sample quantiles are values that partition a dataset into intervals with equal probabilities, with the sample median being the 0.5-quantile. The 25th, 50th, and 75th percentiles are known as the first, second, and third quartiles."
+What is artificial narrow intelligence (ANI)?,"ANI is AI that excels in a specific, narrowly defined task, like language translation or playing specific games."
+How does deep learning differ from traditional machine learning?,Deep learning involves a greater amount of composition of learned functions or concepts than traditional machine learning.
+What is 'underfitting' in machine learning?,"Underfitting in machine learning occurs when a model is too simple, both in terms of the structure and the data it has been trained on, and cannot capture the underlying trend of the data."
+What is the importance of understanding machine learning concepts?,Understanding core machine learning concepts is vital for describing how modern AI technologies work and for building similar applications.
+Explain what a homogeneous system of linear equations is.,A homogeneous system of linear equations is a system where all the constant terms are zero.
+What are some common evaluation metrics in machine learning for classification problems?,"Common evaluation metrics for classification problems include Accuracy, Precision, Recall, F1 score, AUC, Log loss, Precision at k, Average precision at k, and Mean average precision at k."
+What are the challenges associated with unsupervised problems in machine learning?,Assessing the results of unsupervised algorithms is challenging because it requires a lot of human interference or heuristics.
+Define the inverse of a matrix.,"The inverse of a matrix is a matrix that, when multiplied with the original matrix, yields the identity matrix."
+What are the characteristics of the Gaussian distribution?,"The Gaussian distribution, also known as the normal distribution, is defined by its mean µ and variance σ² or precision β, and is characterized by the classic 'bell curve' shape【25†source】."
+What does the Kullback–Leibler risk measure in Bayesian learning?,The Kullback–Leibler risk measures the discrepancy between the proposed approximation and the true unknown function in Bayesian learning.
+What is the MNIST dataset?,"The MNIST dataset is a popular dataset of handwritten digits, which is originally a supervised problem where each image has a correct label associated with it."
+What is a tensor?,A tensor is a generalization of matrices to an array with more than two axes.
+What is 'feature scaling' in machine learning?,"Feature scaling in machine learning involves adjusting the scale of features in the data, ensuring that no single feature dominates the learning process and improving the performance of the algorithms."
+What is 'dropout' in the context of neural networks?,"Dropout in neural networks is a regularization technique where randomly selected neurons are ignored during training, which helps prevent overfitting."
+What is matrix multiplication?,Matrix multiplication is a way of combining two matrices into one matrix.
+What does the loss function in Bayesian learning measure?,"The loss function in Bayesian learning measures the discrepancy between a proposed approximation and the true function, using expected logarithmic differences."
+What is a vector space?,"A vector space is a collection of vectors that can be added together and multiplied by scalars, following certain rules."
+What is k-nearest neighbors (k-NN) in machine learning?,k-NN is a simple algorithm that labels a data point by finding the mean or mode of the labels of its k closest data points.
+What does the depth of a logistic regression model depend on?,The depth of a logistic regression model depends on the definition of what constitutes a possible computational step or the set of operations used.
+What is regression in supervised learning?,Regression predicts a continuous target variable based on input data.
+What is 'bagging' in machine learning?,"Bagging, or Bootstrap Aggregating, in machine learning is an ensemble technique that improves the stability and accuracy of machine learning algorithms by combining multiple models."
+"According to one perspective, what is deep learning in the context of representations?","Deep learning is the learning of the right representation for the data through a series of nested simple mappings, each described by a different layer of the model."
+How do you interpret the non-uniqueness of solutions in a system of linear equations?,"The non-uniqueness of solutions in a system of linear equations implies that there exist multiple sets of values for the variable vector that satisfy the equation. This usually happens when the system is underdetermined with more unknowns than equations, leading to a solution space with infinite possible solutions."
+What is 'dimensionality reduction' in data preprocessing?,"Dimensionality reduction in data preprocessing is the process of reducing the number of input variables in a dataset, often used to simplify models and reduce computational cost."
+What is singular value decomposition?,Singular value decomposition is a factorization of a real or complex matrix that generalizes the eigendecomposition of a square normal matrix.
+What is the structure of 'Machine Learning for Humans'?,"The book is structured into parts: Introduction, Supervised Learning (with three subparts), Unsupervised Learning, Neural Networks & Deep Learning, and Reinforcement Learning."
+What are some medical applications of AI?,"AI is used to design treatment plans for cancer patients, analyze medical test results immediately, and aid in drug discovery research."
+How does deep learning utilize layers to process inputs?,"Deep learning uses layers to transform input data, where each layer's activations provide a new representation of the input, contributing to the overall processing and understanding of the data."
+What is a non-trivial way of generating zero when solving systems of linear equations?,"A non-trivial way of generating zero when solving systems of linear equations involves finding a linear combination of the columns of the coefficient matrix that results in the zero vector. This means finding a set of scalars that, when applied to the respective columns and summed up, negate each other and result in zero."
+What is a major challenge in AI applications?,A major challenge in AI is the need to disentangle and discard irrelevant factors of variation in data.
+What is logistic regression?,Logistic regression is a method for classification that outputs the probability of a target variable belonging to a certain class.
+Define the image of a linear map.,The image of a linear map is the set of all vectors that can be obtained by applying the map to vectors from its domain.
+How do you ensure that precision calculations only consider the current class as positive in a multi-class setup?,"To ensure that precision calculations only consider the current class as positive in a multi-class setup, each class label is binarized such that the current class is set to 1 (positive) and all other classes are set to 0 (negative) for the true and predicted values【39†source】."
+How is the iris data set used in Python?,"The iris data set, containing physical measurements of iris species, can be loaded into Python using the pandas library by reading from a CSV file."
+What is cross-validation in machine learning?,Cross-validation is a step in building a machine learning model that helps ensure the model fits the data accurately and avoids overfitting.
+What is the relevance of data science and machine learning in the modern world?,"Data science and machine learning are highly relevant in today's world of automation, cloud computing, and big data, due to their applicability to real-life questions and their blend of disciplines like mathematics, statistics, computer science, and finance."
+How did cognitive science influence the second wave of neural network research?,Cognitive science influenced the second wave by shifting focus to models of cognition that could be grounded in neural implementations.
+What types of learning does the book 'Approaching (Almost) Any Machine Learning Problem' focus on?,The book focuses on both supervised and unsupervised learning.
+What is 'logistic regression' in machine learning?,Logistic regression in machine learning is a statistical model that in its basic form uses a logistic function to model a binary dependent variable.
+How does deep learning help in tasks requiring intelligence?,"Deep learning helps in tasks requiring intelligence by building complex concepts out of simpler ones, allowing for more sophisticated understanding and decision-making."
+How is AI utilized in everyday technology like Google Translate?,"AI, through convolutional neural networks, is used in Google Translate to overlay translations on menus in real time."
+What is the 'AI effect' in technology?,"The AI effect refers to the tendency of labeling technologies as 'AI' when they perform human-like tasks, but redefining them as not 'AI' once achieved."
+What is representation learning?,Representation learning is an approach in machine learning where the system discovers the representations needed for feature detection or classification.
+What distinguishes continuous from discrete variables in regression?,"Continuous variables, like height, have a continuous range of values, while discrete variables, like number of children, have specific, countable values."
+What is the role of 'optimization algorithms' in machine learning?,"Optimization algorithms in machine learning are used to minimize or maximize a function, which is often the loss function used to train a model."
+What is the significance of the parameter µ in a Laplace distribution?,"In a Laplace distribution, the parameter µ specifies the location of the sharp peak of probability mass【25†source】."
+How does deep learning tackle the difficulty of understanding meaning from raw sensory input data?,"Deep learning breaks the desired complicated mapping from raw sensory input data into a series of nested simple mappings, each described by a different layer of the model."
+What is the website mentioned for downloading Miniconda3?,"The website mentioned for downloading Miniconda3 is the official Anaconda repository, specifically repo.anaconda.com."
+What was a major accomplishment by Google in AI in 2015?,"In 2015, Google trained a conversational AI agent capable of interacting with humans, discussing morality, opinions, and general knowledge."
+What is a quintessential example of a deep learning model?,The quintessential example of a deep learning model is the feedforward deep network or multilayer perceptron (MLP).
+Define the span of a set of vectors.,The span of a set of vectors is the set of all possible linear combinations of those vectors.
+What is the importance of examining the columns of the matrix when solving systems of linear equations?,"Examining the columns of the matrix when solving systems of linear equations is important because it helps to identify dependencies among variables, understand the structure of the solution space, and determine if there are multiple solutions. It also facilitates the process of finding both particular and general solutions."
+What is 'data preprocessing' in machine learning?,"Data preprocessing in machine learning involves transforming raw data into an understandable format, as real-world data is often incomplete, inconsistent, and lacking in certain behaviors or trends."
+How can machine learning problems be classified based on the availability of target labels?,"Machine learning problems can be classified as supervised when target labels are available, and unsupervised when they are not."
+What is Elon Musk's advice on learning AI and machine learning?,Elon Musk advises understanding the fundamental principles of AI and machine learning before getting into detailed aspects.
+What does it mean for matrices to be equivalent?,"Matrices are equivalent if they represent the same linear transformation, just with respect to different bases."
+What characterizes an unsupervised machine learning problem?,An unsupervised machine learning problem is one where the data does not have any associated target variable.
+What is the role of an orthonormal basis in linear algebra?,"An orthonormal basis in linear algebra is a basis where all vectors are orthogonal to each other and each vector is of unit length. It simplifies computations in vector spaces, particularly in the context of linear transformations and inner products."
+What is a linear combination of vectors?,A linear combination of vectors is an expression where vectors are multiplied by scalars and then added together.
+What is a prior in Bayesian learning?,"In Bayesian learning, a prior is a pdf that reflects our a priori beliefs about a parameter."
+Does the dot product between two vectors x and y satisfy commutativity?,"Yes, the dot product between two vectors x and y is commutative, which means x-transpose times y equals y-transpose times x."
+What is 'feature selection' in machine learning?,"Feature selection in machine learning is the process of selecting a subset of relevant features for use in model construction, to improve model accuracy and reduce overfitting."
+How can overfitting be combated?,Overfitting can be combated by using more training data and applying regularization to penalize overly complex models.
+Define a linear mapping.,A linear mapping is a function between two vector spaces that preserves vector addition and scalar multiplication.
+What are the unique values considered when calculating class-wise precision?,The unique values considered when calculating class-wise precision are the class labels present in the true values of the dataset【39†source】.
+What is 'one-hot encoding' in machine learning?,One-hot encoding in machine learning is a process of converting categorical data variables so they can be provided to machine learning algorithms to improve predictions.
+How is loss minimized in logistic regression?,"Loss in logistic regression is minimized using gradient descent, balancing between data loss (discrepancy between predictions and reality) and regularization loss."
+What does it mean for a matrix to be orthogonal?,A matrix is orthogonal if its transpose is also its inverse.
+What are some future challenges regarding AI?,"Challenges include addressing AI biases, disagreements on AI risks and benefits, and the impact of AI on human purpose and work."
+Can regression be used in a classification setting in machine learning?,"Sometimes regression might be used in a classification setting, depending on the metric used for evaluation."
+What is classification in machine learning?,"Classification involves predicting a discrete label for a data point, such as determining if an email is spam or not."
+How are Gaussian distributions used in machine learning?,"Gaussian distributions are used in machine learning to model distributions over real numbers, especially when the precise form of the distribution is unknown and the normal distribution serves as a non-informative prior【25†source】."
+How is object recognition achieved in a deep learning model?,"Object recognition is achieved by using the description of the image in terms of the object parts it contains, which is formulated by the third and deeper hidden layers, to recognize the objects present in the image."
+What is an autoencoder?,"An autoencoder is a type of artificial neural network used to learn efficient codings, typically for the purpose of dimensionality reduction."
+What is 'one-hot encoding' in machine learning?,One-hot encoding in machine learning is a process of converting categorical variables into a form that could be provided to machine learning algorithms to do a better job in prediction.
+What is the concept of an 'intelligence explosion' in AI?,"An intelligence explosion refers to the idea that an ultraintelligent machine could design even better machines, leading to rapid AI advancement."
+How does deep learning contribute to understanding of cognitive tasks?,"Deep learning models, with their multiple levels of abstraction, provide insights into cognitive tasks that require high-level reasoning and pattern recognition."
+What is 'ROC-AUC' in machine learning?,"ROC-AUC in machine learning stands for Receiver Operating Characteristic - Area Under Curve, a metric used to evaluate the performance of a binary classification model."
+What is the purpose of the config.py file in the context of a machine learning project as described in AAAMLP?,"The config.py file serves as a centralized location for defining project-specific configurations like the training file and model output directory, to avoid hardcoding these elements in the training scripts."
+What is a symmetric matrix?,A symmetric matrix is a square matrix that is equal to its transpose.
+What is the concept of linear dependence?,"Linear dependence refers to a scenario in a vector space where one vector in a set can be defined as a linear combination of others. If no vector in the set can be written in this way, the vectors are linearly independent."
+Why does machine learning matter?,"Machine learning is significant as it shapes our future, with rapid advancements changing technology to feel increasingly like magic."
+What is the simple form for the transpose of a matrix product?,The transpose of a matrix product AB is given by the simple form (AB)-transpose = B-transpose times A-transpose.
+What is the role of the encoding function in an autoencoder?,The encoding function in an autoencoder converts the input data into a different representation.
+What is 'batch normalization' in neural networks?,"Batch normalization in neural networks is a technique to provide any layer in a neural network with inputs that are zero mean/unit variance, which helps to stabilize and speed up training."
+For which tasks does the author prefer to use Python scripts?,"For most of the tasks in the book, the author prefers to use Python scripts."
+What is the Bernoulli distribution?,"The Bernoulli distribution is a distribution over a single binary random variable controlled by a parameter φ, representing the probability of the variable being equal to 1【25†source】."
+What is 'loss function' in machine learning?,"A loss function in machine learning is a method of evaluating how well a specific algorithm models the given data; if predictions deviate from actual results, loss function would output a higher number."
+How many clusters should one choose for k-means clustering?,There is no right answer for the number of clusters in k-means clustering; it must be found by cross-validation.
+What are the two different ways to install a package when you are in a conda environment?,The two ways to install a package in a conda environment are either from the conda repository or from the official PyPi repository using conda or pip respectively.
+What is the definition of a vector space?,"A vector space is a set V along with two operations that satisfy eight axioms: the operations are vector addition and scalar multiplication, and the axioms include associativity, commutativity, identity, and inverses for addition, and compatibility, identity, and distributivity for scalar multiplication."
+Why might a model's representation store state information unrelated to the content of the input?,"A model's representation might store state information unrelated to the content of the input to help the model organize its processing, similar to how a traditional computer program uses counters or pointers."
+What are the limitations of early AI?,"Early AI struggled with tasks that are easy for humans but hard to formally describe, like recognizing spoken words or faces in images."
+Explain the concept of matrix transpose.,"The transpose of a matrix is obtained by flipping it over its diagonal, turning its rows into columns and vice-versa."
+What type of problem is created when the MNIST dataset images are used without their corresponding labels?,"Without corresponding labels, the MNIST dataset represents an unsupervised learning problem."
+What is the command to activate the 'ml' environment?,The command to activate the 'ml' environment is: conda activate ml.
+What are the feature types in the 'nutri' data frame?,"In the 'nutri' data frame, the feature types include qualitative (gender, situation, fat), discrete quantitative (tea, coffee), and continuous quantitative (height, weight, age)."
+What does a 'factor of variation' refer to in the context of deep learning?,A 'factor of variation' refers to a separate source of influence that contributes to the differences in the data observed.
+"What is the significance of the prior, likelihood, and posterior in Bayesian learning?","In Bayesian learning, the prior reflects a priori beliefs about a parameter, the likelihood is used for inference about a parameter, and the posterior is used for inference after combining the prior and likelihood."
+What is the iris data set and how is it structured?,"The iris data set contains measurements (sepal/petal length and width) of 50 specimens each of 3 iris species: setosa, versicolor, and virginica. It's a commonly used dataset in R programming for learning purposes."
+How does class distribution affect weighted precision?,"Class distribution affects weighted precision by giving more weight to classes with a higher number of samples, thereby reflecting the influence of each class's size in the final precision score【41†source】."
+What are common datasets used by beginners in data science or machine learning?,"Common datasets used by beginners include the Titanic dataset, where the goal is to predict survival, and the Iris dataset, where the goal is to predict the species of a flower."
+What is gradient descent in the context of linear regression?,Gradient descent in linear regression is an iterative process to find the minimum of the loss function by adjusting model parameters.
+How is the book 'Deep Learning' organized to cater to its readers?,"The book is divided into three parts: basic mathematical tools and machine learning concepts, established deep learning algorithms, and speculative ideas important for future deep learning research."
+What is another perspective on deep learning apart from learning representations?,"Another perspective on deep learning is that it allows the computer to learn a multi-step computer program, where each layer represents the state of the computer's memory after executing a set of instructions in parallel."
+What are the most used evaluation metrics for regression in machine learning?,"The most commonly used evaluation metrics for regression are Mean absolute error (MAE), Mean squared error (MSE), Root mean squared error (RMSE), Root mean squared logarithmic error (RMSLE), Mean percentage error (MPE), Mean absolute percentage error (MAPE), and R2."
+What is the shape of the transformed data array after applying t-SNE to the MNIST dataset?,The shape of the transformed data array after applying t-SNE to the MNIST dataset is 3000x2.
+How might unsupervised datasets appear in the context of e-commerce?,"Unsupervised datasets in e-commerce might include data about customers visiting a website or store, and the goal could be to segment these customers into different categories without any pre-existing labels."
+"What is the central premise of the chapter on Probability and Information Theory in 'Deep Learning' by Ian Goodfellow, Yoshua Bengio, and Aaron Courville?","The central premise is that nearly all activities require some form of reasoning in the presence of uncertainty, and the chapter discusses three sources of uncertainty: inherent stochasticity in the system, incomplete observability, and incomplete modeling【21†source】."
+Give an example of an unsupervised machine learning problem.,Determining fraudulent from genuine credit card transactions when no information about the legitimacy of the transactions is available is an unsupervised machine learning problem.
+What is 'ensemble averaging' in machine learning?,"Ensemble averaging in machine learning is a technique where multiple models are trained independently and their predictions are averaged, often leading to better performance than any single model."
+How is the rank of a matrix defined?,The rank of a matrix is the maximum number of linearly independent column vectors in the matrix or the maximum number of linearly independent row vectors in the matrix.
+How is the t-SNE transformation of the MNIST dataset plotted?,"The t-SNE transformation of the MNIST dataset is plotted using seaborn and matplotlib with a FacetGrid, mapping the scatter plot of x and y components and adding a legend."
+What is the difference between micro and macro precision?,"Micro precision uses overall true positives and false positives across all classes to calculate a single precision score, while macro precision calculates precision for each class individually before averaging them【39†source】【40†source】."
+What is cross-validation in machine learning?,"Cross-validation is the most critical step when it comes to building a good machine learning model that is generalizable when it comes to unseen data. It involves dividing training data into parts, training the model on some of these parts, and testing it on the remaining parts."
+How can you run multiple folds without causing memory issues as per the guidelines in AAAMLP?,You can create and run a shell script with different commands for different folds to avoid memory issues associated with running multiple folds in the same script.
+How is an element within a tensor identified in the book 'Deep Learning'?,"An element within a tensor is identified by its coordinates. For example, the element of tensor A at coordinates (i, j, k) is written as Ai,j,k."
+What is the difference between continuous and discrete variables in regression?,"Continuous variables, like weight, have no gaps in possible values, while discrete variables, like the number of children, can only take specific values."
+How is loss minimized in logistic regression?,"Loss in logistic regression is minimized using gradient descent, balancing between the model’s predictions and reality, and regularization."
+What is 'data scraping' in the context of data collection for machine learning?,"Data scraping in machine learning refers to extracting data from websites or other sources, which can then be cleaned, processed, and used for training machine learning models."
+What is the exponential distribution?,The exponential distribution is a distribution used to model the time between events in a process in which events occur continuously and independently at a constant average rate【25†source】.
+What is the spectral theorem?,The spectral theorem states conditions under which a matrix can be diagonalized through a basis of eigenvectors.
+What is an example of how to derive a non-trivial version of zero from the columns of the matrix in system 2.38?,"An example of how to derive a non-trivial version of zero from the columns of the matrix in system 2.38 is by taking 8 times the first column plus 2 times the second column minus 1 times the third column, which results in the zero vector. Similarly, taking -4 times the first column plus 12 times the second column minus 1 times the fourth column also results in the zero vector. These combinations can be scaled by any real number lambda to produce an infinite number of non-trivial zeroes."
+What is an example of a simple task that a representation learning algorithm can learn?,An example of a simple task is speaker identification from sound by extracting features such as an estimate of the speaker's vocal tract size.
+Is it possible to calculate weighted precision manually without libraries like scikit-learn?,"Yes, it is possible to calculate weighted precision manually without libraries like scikit-learn, as illustrated in the book with a Python implementation【41†source】."
+Can you describe the thought process behind generating non-trivial versions of zero using matrix columns?,"The thought process behind generating non-trivial versions of zero using matrix columns involves identifying a set of coefficients that, when each is multiplied by their respective column and then added together, result in the zero vector. This process is crucial for finding the complete solution set of an underdetermined system of equations, as it determines how to construct multiple solutions based on the degrees of freedom in the system."
+What is the role of a likelihood in Bayesian learning?,"In Bayesian learning, the likelihood is a conditional pdf used for inference about a parameter."
+What is a 'training set' in machine learning?,"A training set in machine learning is a dataset used to train a model, helping it understand and learn the patterns in the data."
+What is 'anomaly detection' in machine learning?,"Anomaly detection in machine learning is the identification of rare items, events, or observations which raise suspicions by differing significantly from the majority of the data."
+What are the two main tasks in supervised learning?,The two main tasks in supervised learning are regression (predicting a continuous value) and classification (assigning a discrete label).
+What is a basis of a vector space?,A basis of a vector space is a set of linearly independent vectors that span the entire space.
+What is the use of summary tables in data science?,"Summary tables are used to condense large datasets into a more manageable form, providing insights into the distribution of variables, especially useful for qualitative data."
+What is 'AdaBoost' in machine learning?,"AdaBoost, short for Adaptive Boosting, in machine learning is an ensemble technique that combines weak learners to create a strong learner for improving the accuracy of models."
+What is 'data normalization' in machine learning?,"Data normalization in machine learning is the process of adjusting the values in the feature set to a common scale, without distorting differences in the ranges of values."
+What is 'data standardization' in machine learning?,Data standardization in machine learning is the process of rescaling the features so that they have a mean of 0 and a standard deviation of 1.
+What kind of machine learning problem does the MNIST dataset represent?,The MNIST dataset represents a supervised machine learning problem.
+What does a supervised problem require?,A supervised problem requires us to predict a value.
+Is the computation of macro precision more complicated than that of weighted precision?,"The computation process for macro precision and weighted precision is structurally similar, but weighted precision takes into account the class distribution by weighting the precision of each class based on its size【39†source】【41†source】."
+What is 'stochastic gradient descent' (SGD) in machine learning?,"Stochastic gradient descent (SGD) in machine learning is an iterative method for optimizing an objective function with suitable smoothness properties, particularly for large-scale and sparse machine learning problems."
+What does an identity matrix In do to any vector x when multiplied together?,"An identity matrix In does not change any vector x upon multiplication, meaning Inx = x."
+Why is logistic regression important in AI?,"Logistic regression, a simple machine learning algorithm, can make decisions like recommending cesarean delivery or separating spam emails."
+What does the covariance matrix represent in a multivariate normal distribution?,"In a multivariate normal distribution, the covariance matrix represents the covariance between each pair of elements in a random vector, and its diagonal elements give the variance of each element【25†source】."
+What is 'naive Bayes' in machine learning?,Naive Bayes in machine learning is a classification technique based on applying Bayes' theorem with the assumption of independence between every pair of features.
+What significant milestone did OpenAI achieve in 2017?,"In 2017, OpenAI created agents that developed their own language and defeated top professionals in Dota 2."
+What is the outcome when you express the third and fourth columns of the system in equation 2.38 in terms of the first two columns?,"When expressing the third and fourth columns of the system in equation 2.38 in terms of the first two columns, the outcome is a combination of these first two columns that equals the third and fourth columns, respectively. This means that the third and fourth columns can be represented as linear combinations of the first two columns, which helps to find a general solution to the system by introducing scalars that represent degrees of freedom."
+How is the concept of artificial superintelligence (ASI) perceived?,"The advent of ASI could be one of the best or worst events for humanity, posing challenges in aligning AI's objectives with human-friendly goals."
+What operating system and Python version does the book recommend for setting up the machine learning environment?,The book recommends using Ubuntu 18.04 and Python 3.7.6 for setting up the machine learning environment.
+What does it mean for a matrix to be diagonalizable?,A matrix is diagonalizable if it can be written as a product of a diagonal matrix and invertible matrices.
+What shorthand notation is used to eliminate the need to define a matrix with b copied into each row before addition with another matrix A?,"The shorthand notation C = A +b is used, where the vector b is added to each row of the matrix A. This process is known as broadcasting."
+What is artificial general intelligence (AGI)?,"AGI is an AI that can perform any intellectual task a human can, including learning, decision-making, and language communication."
+What is the Rank-Nullity Theorem?,The Rank-Nullity Theorem states that the dimension of the vector space equals the sum of the rank and nullity of a matrix.
+What are some of the real-world applications of artificial intelligence as of today?,"AI applications include automating routine labor, understanding speech or images, making medical diagnoses, and supporting basic scientific research."
+What is the downside of calling the run function in train.py for every fold as mentioned in AAAMLP?,"Calling the run function multiple times for each fold in the same script may cause memory consumption to keep increasing, which can lead to the program crashing."
+What is a 'confusion matrix' in machine learning?,A confusion matrix in machine learning is a table used to describe the performance of a classification model on a set of test data for which the true values are known.
+How can multiple solutions to a system of equations exist according to the explanation around equations 2.38 to 2.42?,"Multiple solutions to a system of equations can exist when the system is underdetermined, such as in the example with system 2.38. The existence of additional unknowns compared to equations allows for the construction of non-trivial combinations of columns that lead to the zero vector. These combinations can be multiplied by any scalar to generate an infinite set of solutions that can be added to a particular solution without changing the right-hand side of the equation."
+What is customer segmentation and how may it relate to unsupervised learning?,"Customer segmentation involves clustering customers into different categories based on certain data, and it can be considered an application of unsupervised learning."
+How is a linear transformation defined?,A linear transformation is a mapping between two vector spaces that preserves the operations of vector addition and scalar multiplication.
+What are the assumptions and goals of linear regression?,Linear regression assumes a linear relationship between input and output and aims to learn model parameters that minimize prediction error.
+What is 'stochastic gradient descent' (SGD) in machine learning?,"Stochastic gradient descent (SGD) in machine learning is an iterative method for optimizing an objective function with suitable smoothness properties, used in training numerous models."
+What is 'text vectorization' in natural language processing?,"Text vectorization in natural language processing is the process of converting text data into numerical format, making it easier for machine learning models to understand and process."
+What are the parts of the book 'Deep Learning' focused on?,"Part I introduces basic mathematical tools and machine learning concepts, Part II describes established deep learning algorithms, and Part III discusses speculative ideas important for future research."
+What is the preferred dual boot option mentioned by the author?,The author prefers a dual boot with Ubuntu as it is native.
+Why is representation learning crucial in machine learning?,"Representation learning is crucial because it automates the process of identifying the best way to represent data, which is key for effective pattern recognition and prediction."
+What is the significance of the perceptron and ADALINE models?,The perceptron and ADALINE were early models that could learn weights for categories from data and influenced the development of modern machine learning algorithms.
+How is the Kullback–Leibler risk used in Bayesian learning?,The Kullback–Leibler risk is used to measure the discrepancy between the proposed approximation and the true unknown function in Bayesian learning.
+Why is the Gaussian distribution often chosen in applications?,"The Gaussian distribution is often chosen because many distributions are close to being normal due to the central limit theorem, and out of all distributions with the same variance, the normal distribution encodes the maximum amount of uncertainty over the real numbers【25†source】."
+What is 'gradient boosting' in machine learning?,"Gradient boosting in machine learning is a technique for regression and classification that produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees."
+What is a 'support vector machine' (SVM) in machine learning?,"A support vector machine (SVM) in machine learning is a supervised learning model used for classification and regression analysis, known for its effectiveness in high-dimensional spaces."
+What are examples of unsupervised datasets mentioned in the book?,Examples include credit card fraud detection or clustering of images.
+What is the Rank-Nullity Theorem in linear algebra?,"The Rank-Nullity Theorem states that for any linear mapping Φ from a vector space V to a vector space W, the sum of the dimensions of the kernel and the image of Φ equals the dimension of V."
+What makes a problem a supervised machine learning problem?,A problem where we are required to predict a value given certain features is known as a supervised problem.
+What is 'autoencoding' in machine learning?,"Autoencoding in machine learning refers to a type of algorithm that is used for unsupervised learning of efficient codings, primarily used for dimensionality reduction and feature learning."
+What is the concept of image and kernel in linear mappings?,"The image (or range) of a linear mapping is the set of all vectors that can be mapped to from the domain, while the kernel (or null space) is the set of all vectors in the domain that map to the zero vector in the codomain."
+What is the dot product between two vectors x and y?,The dot product between two vectors x and y of the same dimensionality is the matrix product x-transpose times y.
+What is the bias-variance tradeoff in machine learning?,The bias-variance tradeoff involves balancing error from oversimplification (bias) and error from sensitivity to training data (variance) for an effective model.
+How does deep learning address the difficulty in representation learning?,"Deep learning introduces representations that are expressed in terms of other, simpler representations, allowing the construction of complex concepts from simpler ones."
+What is 'data encoding' in machine learning?,Data encoding in machine learning refers to converting categorical data into a numerical format so that it can be used by machine learning algorithms.
+What is 'gradient boosting' in machine learning?,"Gradient boosting in machine learning is an ensemble technique that builds models sequentially, each new model correcting errors made by the previous one, typically using decision trees as base learners."
+What is overfitting in machine learning?,"Overfitting is when a model learns the training data too well, including its peculiarities, and fails to generalize to new, unseen data."
+What is 'dropout' in neural networks?,"Dropout in neural networks is a regularization technique where randomly selected neurons are ignored during training, preventing overfitting by providing a way of approximately combining exponentially many different neural network architectures."
+What is 'representation learning' in the context of machine learning?,Representation learning is an approach where machine learning algorithms discover not only the output mappings but also the best way to represent data. This often leads to better performance than hand-designed representations.
+"According to the book, how should you proceed if you want to install additional packages in Miniconda?","According to the book, if you want to install additional packages in Miniconda, you should do so as you go, either from the conda repository or the official PyPi repository."
+Explain the concept of a linear system of equations.,A linear system of equations is a collection of linear equations involving the same set of variables.
+What does the sample range indicate in data analysis?,"The sample range indicates the dispersion or spread of the data, calculated as the difference between the maximum and minimum values in the dataset."
+How can a system of linear equations be represented using matrix-vector product notation?,"A system of linear equations can be compactly represented as Ax = b, where A is a known matrix, b is a known vector, and x is the vector of unknown variables we want to solve for."
+"Is there a preferred method among macro, micro, and weighted precision in multi-class classification?","No single method among macro, micro, and weighted precision is universally preferred in multi-class classification; the choice depends on the specific context of the problem and the desired sensitivity to class distribution【39†source】【40†source】【41†source】."
+How does the multivariate normal distribution characterize random variables?,"The multivariate normal distribution characterizes random variables such that affine combinations, marginal distributions, and conditional distributions are normal."
+What is the coding for different features in the nutritional study data set?,"The nutritional study data set codes features like gender (1=Male; 2=Female), family status (1=Single, etc.), daily consumption of tea/coffee (number of cups), height (cm), weight (kg), age (years), and types of consumed food and fat."
+What is the purpose of creating a pandas dataframe from the transformed t-SNE data?,Creating a pandas dataframe from the transformed t-SNE data allows for organizing the components and targets into columns for easier visualization and analysis.
+What is 'data wrangling' in machine learning?,"Data wrangling in machine learning is the process of cleaning, structuring, and enriching raw data into a desired format for better decision making in less time."
+How can you create the environment from an environment.yml file?,You can create the environment from an environment.yml file using the command: conda env create -f environment.yml.
+What is 'transfer learning' in machine learning?,"Transfer learning in machine learning is a technique where a model developed for a task is reused as the starting point for a model on a second task, helping to leverage previous learning and improve performance."
+What is 'clustering' in machine learning?,"Clustering in machine learning is the task of dividing the dataset into groups, such that data points in the same group are more similar to other data points in the same group than those in other groups."
+What is 'clustering' in machine learning?,Clustering in machine learning is the task of grouping a set of objects in such a way that objects in the same group (cluster) are more similar to each other than to those in other groups.
+How did the conception of programmable computers influence the field of artificial intelligence?,"The idea of programmable computers sparked curiosity about whether such machines might become intelligent, a concept considered over a hundred years before the actual creation of such computers."
+What are some medical applications of AI as of 2017?,"AI applications in medicine include designing treatment plans for cancer, analyzing medical test results, and aiding in drug discovery research."
+What is a matrix?,"A matrix is a 2-D array of numbers, so each element is identified by two indices instead of just one."
+What distinguishes supervised data from unsupervised data?,"Supervised data always has one or multiple targets associated with it, while unsupervised data does not have any target variable."
+What is the principle of maximum likelihood estimation?,"Maximum likelihood estimation involves finding the parameter that maximizes the likelihood of the data, which is the joint density of the data evaluated at the points."
+What is a column space of a matrix?,The column space of a matrix is the set of all possible linear combinations of its column vectors.
+Explain the concept of a norm in vector spaces.,"A norm on a vector space is a function that assigns a non-negative length or size to each vector in the space, satisfying certain properties like absolute homogeneity, triangle inequality, and being positive definite."
+How are two-way plots used for visualizing two categorical variables?,"Two-way plots, like comparative barplots, are used to visualize the relationship between two categorical variables. They often involve subplots or grouped bars to compare frequencies or counts across different categories of each variable."
+What is classification in machine learning?,"Classification in machine learning involves predicting a discrete label for a data point, like identifying spam emails or fraudulent loan applications."
+Give an example of a supervised machine learning problem.,"Predicting house prices given historical house prices along with features like proximity to a hospital, school or supermarket, and distance to nearest public transport."
+What are the types of problems into which supervised machine learning can be divided?,Supervised machine learning problems can be divided into two sub-classes: Classification and Regression.
+What are the typical goals when designing or learning features?,"The goals are usually to separate the factors of variation that explain the observed data, which are the different sources of influence that affect the data."
+Which software does the author use for simple tasks and plotting?,The author uses Jupyter Notebook for simple tasks like the example above and for plotting.
+What is the prerequisite for being able to run the bash scripts provided in the book?,The prerequisite for running the bash scripts in the book is using Ubuntu or a Linux shell on Windows if you are not an Ubuntu user.
+How is the transformation matrix of a linear mapping defined?,"The transformation matrix of a linear mapping Φ with respect to bases B and C, denoted by AΦ, is a matrix that represents the linear mapping in terms of coordinates relative to these bases."
+What is feature engineering in the context of machine learning?,Feature engineering is the process of using domain knowledge to extract features from raw data that make machine learning algorithms work.
+"In the context of linear models, what are the components of generalization risk when using squared-error loss?","When using squared-error loss in linear models, the generalization risk consists of the irreducible error, the approximation error (the expected squared difference between the optimal and actual prediction function), and the statistical error (which depends on the training set)."
+Explain the concept of vector subspaces.,A vector subspace is a subset of a vector space that itself forms a vector space under the same operations.
+What is the chain rule of conditional probabilities?,"The chain rule of conditional probabilities states that any joint probability distribution over several random variables can be decomposed into conditional distributions over only one variable, creating a product of conditional probabilities【25†source】."
+What is a multilayer perceptron (MLP) in deep learning?,"An MLP is a type of deep learning model that functions as a mathematical mapping from a set of input values to output values, formed by composing many simpler functions."
+What programming environment was used for running the example code for the visualization of the MNIST dataset?,The code was run in a Jupyter notebook.
+What does the numpy function 'np.unique(y_true)' do in the context of calculating precision?,"The function 'np.unique(y_true)' is used to determine the number of unique classes present in the true values, which is essential for calculating class-wise precision in a multi-class scenario【39†source】."
+Why are some layers of a deep learning model termed 'hidden layers'?,They are called 'hidden' because their values are not given in the data and the model must determine which concepts are useful for explaining the observed data.
+What is 'recall' in machine learning?,"Recall in machine learning is a metric that measures the ability of a model to find all the relevant cases within a dataset, calculated as the number of true positives divided by the total number of actual positives (true positives + false negatives)."
+What does the matrix inverse A−1 of a matrix A do?,"The matrix inverse A−1 is defined such that when it is multiplied by the matrix A, it results in the identity matrix, that is, A−1A = In."
+What is 'data visualization' in machine learning?,"Data visualization in machine learning is the graphical representation of information and data to provide an accessible way to see and understand trends, outliers, and patterns in data."
+What is 'data wrangling' in machine learning?,Data wrangling in machine learning is the process of cleaning and unifying messy and complex data sets for easy access and analysis.
+What is 'data leakage' in machine learning?,"Data leakage in machine learning occurs when information from outside the training dataset is used to create the model, leading to overly optimistic performance estimates."
+What was the first model capable of learning the weights defining categories?,The perceptron was the first model capable of learning the weights defining categories.
+How is linear regression used to predict income?,"Linear regression can predict income based on years of education, assuming a linear increase in income with each additional year of education."
+Define the equivalence of matrices.,"Two matrices A and A˜ are equivalent if there exist regular matrices S and T such that A˜ = T−1AS. This implies a similarity in the linear transformations they represent, up to a change of basis."
+What is 'K-means clustering' in machine learning?,"K-means clustering in machine learning is a type of unsupervised learning, which is used when you have unlabeled data, to find hidden patterns or grouping in data."
+What does the term 'model' refer to in machine learning?,"In machine learning, a model refers to a mathematical representation of a real-world process used to make predictions or decisions without being explicitly programmed to perform the task."
+What mathematical concept allows the analytical solving of equation Ax = b for many values of A?,Matrix inversion is the mathematical concept that allows the analytical solving of equation Ax = b for many values of A.
+"In AAAMLP, what is the purpose of resetting the index when creating the training and validation data in train.py?","Resetting the index ensures that the indices of the training and validation data are continuous and start from 0, which is a common practice to avoid potential issues with misaligned indices."
+What achievement was made by DeepMind in gaming AI?,DeepMind developed an AI agent that surpassed human performance in 49 Atari games and later improved it with their A3C gameplay method.
+What does it mean when a solution to a system of linear equations is scaled by any scalar value?,"When a solution to a system of linear equations is scaled by any scalar value, it means that the solution vector can be multiplied by any real number, and the resulting vector will still satisfy the system. This property is indicative of an underdetermined system with infinitely many solutions."
+What is the span of a set of vectors?,The span of a set of vectors is the set of all points obtainable by linear combination of the original vectors.
+How is a multivariate normal distribution characterized?,"A multivariate normal distribution is characterized by properties such as affine combinations being normal, marginal distributions being normal, and conditional distributions being normal."
+What are support vector machines (SVMs)?,"SVMs are a type of parametric model used for classification, like distinguishing between images or categorizing reviews."
+What is 'momentum' in the context of gradient descent algorithms?,"Momentum in gradient descent algorithms is a technique to accelerate the convergence of the algorithm, particularly in the relevant direction and dampen oscillations."
+Why do we need to 'disentangle' the factors of variation in AI applications?,Disentangling the factors of variation is necessary to discard the ones that are irrelevant for the task at hand and focus on the important features.
+What is the role of gradient descent in linear regression?,Gradient descent is used to find the minimum of the loss function by iteratively adjusting the model parameters.
+What is 'overfitting' and how can it be prevented?,"Overfitting occurs when a machine learning model learns the training data too well, including its noise and details, reducing its performance on new data. It can be prevented by techniques like cross-validation, regularization, and pruning in decision trees."
+What is 'natural language processing' (NLP) in machine learning?,"Natural language processing (NLP) in machine learning is a field of computer science, artificial intelligence, and linguistics concerned with the interactions between computers and human languages."
+What are 'reinforcement learning' algorithms?,Reinforcement learning algorithms are a type of machine learning where an agent learns to make decisions by performing actions and receiving feedback in the form of rewards or penalties.
+What is 'model evaluation' in machine learning?,"Model evaluation in machine learning refers to the process of determining how well a model performs in terms of accuracy, generalizability, and efficiency."
+What is the command to execute a shell script that contains different commands for different folds in AAAMLP?,The command to execute such a shell script is 'sh run.sh'.
+Why would one use weighted precision instead of macro precision?,"One would use weighted precision instead of macro precision when the class distribution is imbalanced, as it accounts for the prevalence of each class by weighting the precision accordingly【41†source】."
+What is 'multiclass classification' in machine learning?,"Multiclass classification in machine learning is a problem where there are more than two classes to be predicted, and the model must classify inputs into one of these multiple categories."
+What is the kernel of a linear map?,The kernel of a linear map is the set of vectors that map to the zero vector under that map.
+What is the significance of stochastic gradient descent in machine learning?,"Stochastic gradient descent is a key training algorithm for deep learning models, adapted from early learning algorithms like ADALINE."
+Can you validate the correctness of your own weighted precision function against scikit-learn?,"Yes, you can validate the correctness of your own weighted precision function against scikit-learn by comparing the output of your function to the output of the 'precision_score' function from scikit-learn with the 'average' parameter set to 'weighted'【41†source】."
+What are 'convolutional neural networks' (CNNs) in deep learning?,"Convolutional neural networks (CNNs) in deep learning are a class of deep neural networks, most commonly applied to analyzing visual imagery."
+What is an example of a normal linear model?,"An example of a normal linear model is a linear model with normal error terms, where the response Y depends on a p-dimensional explanatory variable x."
+What is the concept of a vector dot product?,The dot product of two vectors is the sum of the products of their corresponding components.
+What shape will the product matrix C have if matrix A is of shape m x n and matrix B is of shape n x p?,The product matrix C will be of shape m x p.
+How do you compute weighted precision?,"Weighted precision is computed by finding the precision for each class, multiplying it with the count of samples in that class, and then adding these weighted precisions to calculate the overall precision, which is then divided by the total number of samples【44†source】."
+What is the eigenvalue decomposition?,"Eigenvalue decomposition is the factorization of a matrix into a canonical form, whereby the matrix is represented in terms of its eigenvalues and eigenvectors."
+What is a random variable?,A random variable is a variable that can take on different values randomly.
+What is 'root mean squared error' (RMSE) in machine learning?,Root mean squared error (RMSE) in machine learning is a square root of the average of squared differences between prediction and actual observation.
+What is 'data augmentation' in machine learning?,"Data augmentation in machine learning involves increasing the diversity of data available for training models, without actually collecting new data, by transforming existing data."
+What is the role of the prior in Bayesian learning?,"In Bayesian learning, the prior reflects our a priori beliefs about a parameter and is used to form the posterior pdf for inference about the parameter."
+"How does the author of AAAMLP suggest handling the hardcoded elements such as fold numbers, training file, and the output folder in a training script?","The author suggests creating a configuration file named config.py that contains this information, to make it easier to change data or the model output path."
+What does figure 1 in the chapter illustrate?,Figure 1 in the chapter shows a supervised dataset where every row of the data is associated with a target or label.
+How are supervised and unsupervised data differentiated in machine learning?,"Supervised data always has one or multiple targets associated with it, whereas unsupervised data does not have any target variable."
+Define an affine subspace in the context of vector spaces.,An affine subspace is a subset of a vector space that can be obtained by translating a linear subspace by a fixed vector. It is no longer a vector subspace if the translation is non-zero.
+How is the model output directory specified in the training script according to AAAMLP?,The model output directory is specified in the config.py file and is used in the training script through the 'config.MODEL_OUTPUT' variable.
+Why is deep learning suitable for various AI tasks?,Deep learning's ability to learn multiple levels of representation makes it suitable for a wide range of AI tasks.
+What is the 'bias-variance tradeoff' in machine learning?,The bias-variance tradeoff in machine learning is the balance between the model's error from incorrect assumptions (bias) and error from sensitivity to small fluctuations in the training set (variance).
+Why do we use only two components in the t-SNE decomposition for visualizing the MNIST dataset?,We use only two components in the t-SNE decomposition because they can be visualized well in a two-dimensional setting.
+What is artificial narrow intelligence (ANI)?,"Artificial narrow intelligence (ANI) effectively performs narrowly defined tasks, such as language translation or game playing."
+What is a posterior in Bayesian learning?,"A posterior in Bayesian learning is a pdf that is proportional to the product of the prior and the likelihood, used for inference about a parameter."
+What is the main principle of a normal linear model?,"A normal linear model is a linear model with normal error terms, where the response Y depends on a p-dimensional explanatory variable x via a linear relationship."
+What milestone did DeepMind achieve with its AI agent?,"DeepMind developed an AI agent that exceeded human performance in 49 Atari games, using only pixels and game scores as inputs."
+What are some key concerns and considerations about AI's future impact?,"Concerns include AI's potential to entrench biases, disagreements on AI risks and benefits, and the impact of AI on human sense of purpose."
+What are some examples of qualitative features in the 'nutri' data frame?,"Qualitative features in the 'nutri' data frame include gender, situation, and types of fat used for cooking."
+What is the MNIST dataset?,The MNIST dataset is a popular dataset of handwritten digits used in supervised machine learning.
+How can unsupervised machine learning problems be more challenging than supervised ones?,"Unsupervised machine learning problems are more challenging because they do not have a target associated with them, making them difficult to evaluate and require more human interference or heuristics."
+What is 'mean squared error' (MSE) in machine learning?,"Mean squared error (MSE) in machine learning is a measure of the average of the squares of the errors—that is, the average squared difference between the estimated values and the actual value."
+How is conditional probability defined?,"Conditional probability is the probability of some event given that some other event has already occurred, and it is calculated using the formula in which conditional probability is the joint probability divided by the marginal probability of the preconditioning event, provided that the marginal probability is greater than zero【25†source】."
+What are some suggested ways to approach reading 'Machine Learning for Humans'?,"The book can be read from start to finish, focusing on specific sections of interest, or skimmed for high-level concepts, depending on the reader's preference."
+Explain the concept of a vector cross product.,The cross product of two vectors is a vector that is perpendicular to both and has a magnitude equal to the area of the parallelogram they span.
+What is the structure of a multilayer perceptron (MLP)?,The function of a multilayer perceptron is formed by composing many simpler functions.
+What is the purpose of a test set in machine learning?,"The purpose of a test set in machine learning is to evaluate the performance of a model on new, unseen data, reflecting its likely performance in the real world."
+Is the standard product of two matrices a matrix containing the products of the individual elements?,"No, the standard product of two matrices is not a matrix containing the products of the individual elements. That operation is known as the element-wise or Hadamard product."
+Define a singular matrix.,A singular matrix is a square matrix that does not have an inverse.
+What is the Neocognitron?,"The Neocognitron is a hierarchical, multilayered artificial neural network that was a precursor to modern convolutional neural networks."
+Why are certain layers referred to as 'hidden' in a deep learning model?,"Certain layers are referred to as 'hidden' because their values are not given in the data; instead, the model must determine which concepts are useful for explaining the relationships in the observed data."
+What insight about fold 0 score does the author provide after introducing argparse in AAAMLP?,"The author notes that the fold 0 score was slightly different before introducing argparse, which is due to the randomness in the model."
+What Python module does the author of AAAMLP use to pass command-line arguments to scripts?,The argparse module is used to pass command-line arguments to scripts in AAAMLP.
+What does it mean for two variables to be independent?,"Two variables are independent if their probability distribution can be expressed as a product of two separate factors, one involving only one variable and another involving the other variable【25†source】."
+What is the expected value or expectation in probability theory?,The expected value or expectation of a function with respect to a probability distribution is the average value that the function takes when a random variable is drawn from the distribution. It is computed with summation for discrete variables or integration for continuous variables【25†source】.
+What is an identity matrix?,An identity matrix is a square matrix with ones on the diagonal and zeros elsewhere.
+What changes are made to the train.py training script when utilizing the config.py file according to AAAMLP?,"The train.py script is modified to import and use the settings from config.py, such as the location of the training data file and model output directory, making it easier to modify these parameters."
+What is the dimensionality of the MNIST dataset after flattening the images?,"After flattening, the dimensionality of the MNIST dataset is 70000x784."
+What is a linear model in statistical learning?,"In a linear model, the response Y depends on a p-dimensional explanatory variable x via a linear relationship Y = x>β + ε."
+Is matrix multiplication commutative?,"No, matrix multiplication is not commutative; AB does not always equal BA."
+Under what conditions is the matrix product of two matrices A and B defined?,The matrix product of two matrices A and B is defined when A has the same number of columns as B has rows.
+What is a neural network in machine learning?,A neural network in machine learning is a series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates.
+What is 'hyperparameter optimization' in machine learning?,Hyperparameter optimization in machine learning is the process of finding the most optimal hyperparameters for a given machine learning algorithm to maximize its performance on a dataset.
+What could be the impact of AI's ability to recursively improve itself?,"If AI can improve itself recursively, it could lead to an intelligence explosion, vastly surpassing human intelligence."
+How does the Laplace distribution differ from the exponential distribution?,The Laplace distribution differs from the exponential distribution in that it allows for a sharp peak of probability mass at an arbitrary point µ instead of just at zero【25†source】.
+What statistical information does the 'describe' method provide for quantitative features?,"For quantitative features, the 'describe' method returns the minimum, maximum, mean, standard deviation, and the three quartiles."
+What does the determinant of a matrix represent?,"The determinant of a matrix is a scalar value that is a function of the entries of a square matrix. It provides important information about the matrix, such as whether it is invertible and its scaling factor on volume when it is used to transform a space."
+What is 'feature extraction' in machine learning?,Feature extraction in machine learning involves transforming raw data into a set of features that are more meaningful and informative for the purposes of analysis or modeling.
+What is 'time series analysis' in machine learning?,Time series analysis in machine learning involves analyzing time series data in order to extract meaningful statistics and characteristics of the data.
+How can you visualize unsupervised datasets?,Unsupervised datasets can be visualized by techniques such as t-Distributed Stochastic Neighbour Embedding (t-SNE) decomposition.
+What is 'transfer learning' in machine learning?,"Transfer learning in machine learning is a technique where a model developed for a task is reused as the starting point for a model on a second task, improving efficiency and performance."
+What is 'data imputation' in machine learning?,"Data imputation in machine learning refers to the process of replacing missing data with substituted values, allowing algorithms to function properly when dealing with incomplete datasets."
+What are the properties of a multivariate normal distribution?,"Properties of a multivariate normal distribution include affine combinations being normal, marginal distributions being normal, and conditional distributions being normal."
+What is an identity matrix?,An identity matrix is a square matrix that does not change any vector when we multiply that vector by that matrix.
+What is an example of regression and classification in machine learning?,"Regression could predict house prices, while classification might identify if an image shows a cat or dog."
+How can supervised datasets be converted to unsupervised datasets in the context of machine learning?,Supervised datasets can be converted to unsupervised datasets for visualization purposes by plotting the data points without labels.
+Define 'classification' in the context of supervised machine learning.,"Classification involves predicting a category, for example, determining whether an image is that of a dog or a cat."
+Define the null space of a matrix.,"The null space of a matrix is the set of all vectors that, when multiplied by the matrix, result in the zero vector."
+What is 'autoencoder' in machine learning?,"An autoencoder in machine learning is a type of artificial neural network used to learn efficient codings of unlabeled data, typically for the purpose of dimensionality reduction."
+What sort of predictions does the Titanic dataset involve?,"The Titanic dataset involves predicting the survival of people aboard the Titanic based on factors like their ticket class, gender, age, etc."
+What does it imply if a system of equations has more unknowns than equations?,"If a system of equations has more unknowns than equations, it implies that the system is underdetermined and could have infinitely many solutions, because there are not enough constraints to determine a unique solution."
+What is a square matrix?,A square matrix is a matrix with the same number of rows and columns.
+Why is supervised machine learning considered easier to tackle compared to unsupervised learning?,Supervised machine learning is considered easier to tackle because the results can be evaluated easily.
+What is the significance of being able to generate the zero vector through a linear combination of columns of a matrix?,Being able to generate the zero vector through a linear combination of columns of a matrix indicates that there are non-trivial solutions that can be added to a particular solution without changing the result. This contributes to the understanding of the solution space and reveals the existence of free variables in the system.
+What is the relationship between columns of a matrix and the concept of particular solutions?,"The relationship between columns of a matrix and the concept of particular solutions lies in the fact that a particular solution is obtained by finding a specific linear combination of the columns of the matrix that equals the constant vector on the right-hand side of the equation. Each column represents the coefficient of a variable in the system, and the particular solution picks specific multiples of these columns to sum up to the desired constant vector."
+What is 'regularization' in machine learning?,Regularization in machine learning is a technique used to reduce overfitting by penalizing models with extreme parameter values.
+What is the main focus of Chapter 1 in the book?,"Chapter 1 focuses on importing, structuring, summarizing, and visualizing data using pandas in Python, without requiring extensive mathematical knowledge."
+What's the trade-off between bias and variance?,If our model is too simple and has very few parameters then it may have high bias and low variance. On the other hand if our model has large number of parameters then it’s going to have high variance and low bias. So we need to find the right/good balance without overfitting and underfitting the data.
+What is gradient descent?,"Gradient descent is an optimization algorithm used to find the values of parameters (coefficients) of a function (f) that minimizes a cost function (cost).
+
+Gradient descent is best used when the parameters cannot be calculated analytically (e.g. using linear algebra) and must be searched for by an optimization algorithm."
+Explain over- and under-fitting and how to combat them?,"ML/DL models essentially learn a relationship between its given inputs(called training features) and objective outputs(called labels). Regardless of the quality of the learned relation(function), its performance on a test set(a collection of data different from the training input) is subject to investigation.
+
+Most ML/DL models have trainable parameters which will be learned to build that input-output relationship. Based on the number of parameters each model has, they can be sorted into more flexible(more parameters) to less flexible(less parameters).
+
+The problem of Underfitting arises when the flexibility of a model(its number of parameters) is not adequate to capture the underlying pattern in a training dataset. Overfitting, on the other hand, arises when the model is too flexible to the underlying pattern. In the later case it is said that the model has “memorized” the training data.
+
+An example of underfitting is estimating a second order polynomial(quadratic function) with a first order polynomial(a simple line). Similarly, estimating a line with a 10th order polynomial would be an example of overfitting."
+How do you combat the curse of dimensionality?,"Feature Selection(manual or via statistical methods)
+Principal Component Analysis (PCA)
+Multidimensional Scaling
+Locally linear embedding"
+"What is regularization, why do we use it, and give some examples of common methods?","A technique that discourages learning a more complex or flexible model, so as to avoid the risk of overfitting. Examples
+
+Ridge (L2 norm)
+Lasso (L1 norm)
+The obvious disadvantage of ridge regression, is model interpretability. It will shrink the coefficients for least important predictors, very close to zero. But it will never make them exactly zero. In other words, the final model will include all predictors. However, in the case of the lasso, the L1 penalty has the effect of forcing some of the coefficient estimates to be exactly equal to zero when the tuning parameter λ is sufficiently large. Therefore, the lasso method also performs variable selection and is said to yield sparse models."
+Explain Principal Component Analysis (PCA)?,"Principal Component Analysis (PCA) is a dimensionality reduction technique used in machine learning to reduce the number of features in a dataset while retaining as much information as possible. It works by identifying the directions (principal components) in which the data varies the most, and projecting the data onto a lower-dimensional subspace along these directions."
+Why is ReLU better and more often used than Sigmoid in Neural Networks?,"Computation Efficiency: As ReLU is a simple threshold the forward and backward path will be faster.
+Reduced Likelihood of Vanishing Gradient: Gradient of ReLU is 1 for positive values and 0 for negative values while Sigmoid activation saturates (gradients close to 0) quickly with slightly higher or lower inputs leading to vanishing gradients.
+Sparsity: Sparsity happens when the input of ReLU is negative. This means fewer neurons are firing ( sparse activation ) and the network is lighter.
+[src1] [src2]"
+"Given stride S and kernel sizes for each layer of a (1-dimensional) CNN, create a function to compute the receptive field of a particular node in the network. This is just finding how many input nodes actually connect through to a neuron in a CNN.","The receptive field are defined portion of space within an inputs that will be used during an operation to generate an output.
+
+Considering a CNN filter of size k, the receptive field of a peculiar layer is only the number of input used by the filter, in this case k, multiplied by the dimension of the input that is not being reduced by the convolutionnal filter a. This results in a receptive field of k*a.
+
+More visually, in the case of an image of size 32x32x3, with a CNN with a filter size of 5x5, the corresponding recpetive field will be the the filter size, 5 multiplied by the depth of the input volume (the RGB colors) which is the color dimensio. This thus gives us a recpetive field of dimension 5x5x3."
+Implement connected components on an image/matrix.,10) Implement a sparse matrix class in C++.
+"Create a function to compute an integral image, and create another function to get area sums from the integral image.",
+How would you remove outliers when trying to estimate a flat plane from noisy samples?,"Random sample consensus (RANSAC) is an iterative method to estimate parameters of a mathematical model from a set of observed data that contains outliers, when outliers are to be accorded no influence on the values of the estimates."
+How does CBIR work?,"Content-based image retrieval is the concept of using images to gather metadata on their content. Compared to the current image retrieval approach based on the keywords associated to the images, this technique generates its metadata from computer vision techniques to extract the relevant informations that will be used during the querying step. Many approach are possible from feature detection to retrieve keywords to the usage of CNN to extract dense features that will be associated to a known distribution of keywords.
+
+With this last approach, we care less about what is shown on the image but more about the similarity between the metadata generated by a known image and a list of known label and or tags projected into this metadata space."
+How does image registration work? Sparse vs. dense optical flow and so on.,"15) Describe how convolution works. What about if your inputs are grayscale vs RGB imagery? What determines the shape of the next layer?
+In a convolutional neural network (CNN), the convolution operation is applied to the input image using a small matrix called a kernel or filter. The kernel slides over the image in small steps, called strides, and performs element-wise multiplications with the corresponding elements of the image and then sums up the results. The output of this operation is called a feature map.
+
+When the input is RGB(or more than 3 channels) the sliding window will be a sliding cube. The shape of the next layer is determined by Kernel size, number of kernels, stride, padding, and dialation.
+
+[src1][src2]"
+Talk me through how you would create a 3D model of an object from imagery and depth sensor measurements taken at all angles around the object.,"There are two popular methods for 3D reconstruction:
+
+Structure from Motion (SfM) 
+
+Multi-View Stereo (MVS) 
+
+SfM is better suited for creating models of large scenes while MVS is better suited for creating models of small objects."
+"Implement SQRT(const double & x) without using any special functions, just fundamental arithmetic.",The taylor series can be used for this step by providing an approximation of sqrt(x):
+Reverse a bitstring.,"If you are using python3 :
+
+data = b'\xAD\xDE\xDE\xC0'
+my_data = bytearray(data)
+my_data.reverse()"
+Implement non maximal suppression as efficiently as you can.,"Non-Maximum Suppression (NMS) is a technique used to eliminate multiple detections of the same object in a given image. To solve that first sort bounding boxes based on their scores(N LogN). Starting with the box with the highest score, remove boxes whose overlapping metric(IoU) is greater than a certain threshold.(N^2)
+
+To optimize this solution you can use special data structures to query for overlapping boxes such as R-tree or KD-tree. (N LogN)"
+Reverse a linked list in place.,
+What is data normalization and why do we need it?,"Data normalization is very important preprocessing step, used to rescale values to fit in a specific range to assure better convergence during backpropagation. In general, it boils down to subtracting the mean of each data point and dividing by its standard deviation. If we don't do this then some of the features (those with high magnitude) will be weighted more in the cost function (if a higher-magnitude feature changes by 1%, then that change is pretty big, but for smaller features it's quite insignificant). The data normalization makes all features weighted equally."
+Why do we use convolutions for images rather than just FC layers?,"Firstly, convolutions preserve, encode, and actually use the spatial information from the image. If we used only FC layers we would have no relative spatial information. Secondly, Convolutional Neural Networks (CNNs) have a partially built-in translation in-variance, since each convolution kernel acts as it's own filter/feature detector."
+What makes CNNs translation invariant?,"As explained above, each convolution kernel acts as it's own filter/feature detector. So let's say you're doing object detection, it doesn't matter where in the image the object is since we're going to apply the convolution in a sliding window fashion across the entire image anyways."
+Why do we have max-pooling in classification CNNs?,for a role in Computer Vision. Max-pooling in a CNN allows you to reduce computation since your feature maps are smaller after the pooling. You don't lose too much semantic information since you're taking the maximum activation. There's also a theory that max-pooling contributes a bit to giving CNNs more translation in-variance. Check out this great video from Andrew Ng on the benefits of max-pooling.
+Why do segmentation CNNs typically have an encoder-decoder style / structure?,"The encoder CNN can basically be thought of as a feature extraction network, while the decoder uses that information to predict the image segments by ""decoding"" the features and upscaling to the original image size."
+What is the significance of Residual Networks?,"The main thing that residual connections did was allow for direct feature access from previous layers. This makes information propagation throughout the network much easier. One very interesting paper about this shows how using local skip connections gives the network a type of ensemble multi-path structure, giving features multiple paths to propagate throughout the network."
+What is batch normalization and why does it work?,"Training Deep Neural Networks is complicated by the fact that the distribution of each layer's inputs changes during training, as the parameters of the previous layers change. The idea is then to normalize the inputs of each layer in such a way that they have a mean output activation of zero and standard deviation of one. This is done for each individual mini-batch at each layer i.e compute the mean and variance of that mini-batch alone, then normalize. This is analogous to how the inputs to networks are standardized. How does this help? We know that normalizing the inputs to a network helps it learn. But a network is just a series of layers, where the output of one layer becomes the input to the next. That means we can think of any layer in a neural network as the first layer of a smaller subsequent network. Thought of as a series of neural networks feeding into each other, we normalize the output of one layer before applying the activation function, and then feed it into the following layer (sub-network)."
+Why would you use many small convolutional kernels such as 3x3 rather than a few large ones?,"This is very well explained in the VGGNet paper. There are 2 reasons: First, you can use several smaller kernels rather than few large ones to get the same receptive field and capture more spatial context, but with the smaller kernels you are using less parameters and computations. Secondly, because with smaller kernels you will be using more filters, you'll be able to use more activation functions and thus have a more discriminative mapping function being learned by your CNN."
+Why do we need a validation set and test set? What is the difference between them?,"When training a model, we divide the available data into three separate sets:
+
+The training dataset is used for fitting the model’s parameters. However, the accuracy that we achieve on the training set is not reliable for predicting if the model will be accurate on new samples.
+The validation dataset is used to measure how well the model does on examples that weren’t part of the training dataset. The metrics computed on the validation data can be used to tune the hyperparameters of the model. However, every time we evaluate the validation data and we make decisions based on those scores, we are leaking information from the validation data into our model. The more evaluations, the more information is leaked. So we can end up overfitting to the validation data, and once again the validation score won’t be reliable for predicting the behaviour of the model in the real world.
+The test dataset is used to measure how well the model does on previously unseen examples. It should only be used once we have tuned the parameters using the validation set.
+So if we omit the test set and only use a validation set, the validation score won’t be a good estimate of the generalization of the model."
+What is stratified cross-validation and when should we use it?,"Cross-validation is a technique for dividing data between training and validation sets. On typical cross-validation this split is done randomly. But in stratified cross-validation, the split preserves the ratio of the categories on both the training and validation datasets.
+
+For example, if we have a dataset with 10% of category A and 90% of category B, and we use stratified cross-validation, we will have the same proportions in training and validation. In contrast, if we use simple cross-validation, in the worst case we may find that there are no samples of category A in the validation set.
+
+Stratified cross-validation may be applied in the following scenarios:
+
+On a dataset with multiple categories. The smaller the dataset and the more imbalanced the categories, the more important it will be to use stratified cross-validation.
+On a dataset with data of different distributions. For example, in a dataset for autonomous driving, we may have images taken during the day and at night. If we do not ensure that both types are present in training and validation, we will have generalization problems."
+Why do ensembles typically have higher scores than individual models?,"An ensemble is the combination of multiple models to create a single prediction. The key idea for making better predictions is that the models should make different errors. That way the errors of one model will be compensated by the right guesses of the other models and thus the score of the ensemble will be higher.
+
+We need diverse models for creating an ensemble. Diversity can be achieved by:
+
+Using different ML algorithms. For example, you can combine logistic regression, k-nearest neighbors, and decision trees.
+Using different subsets of the data for training. This is called bagging.
+Giving a different weight to each of the samples of the training set. If this is done iteratively, weighting the samples according to the errors of the ensemble, it’s called boosting. Many winning solutions to data science competitions are ensembles. However, in real-life machine learning projects, engineers need to find a balance between execution time and accuracy."
+What is an imbalanced dataset? Can you list some ways to deal with it?,"An imbalanced dataset is one that has different proportions of target categories. For example, a dataset with medical images where we have to detect some illness will typically have many more negative samples than positive samples—say, 98% of images are without the illness and 2% of images are with the illness.
+
+There are different options to deal with imbalanced datasets:
+
+Oversampling or undersampling. Instead of sampling with a uniform distribution from the training dataset, we can use other distributions so the model sees a more balanced dataset.
+Data augmentation. We can add data in the less frequent categories by modifying existing data in a controlled way. In the example dataset, we could flip the images with illnesses, or add noise to copies of the images in such a way that the illness remains visible.
+Using appropriate metrics. In the example dataset, if we had a model that always made negative predictions, it would achieve a precision of 98%. There are other metrics such as precision, recall, and F-score that describe the accuracy of the model better when using an imbalanced dataset."
+"Can you explain the differences between supervised, unsupervised, and reinforcement learning?","In supervised learning, we train a model to learn the relationship between input data and output data. We need to have labeled data to be able to do supervised learning.
+
+With unsupervised learning, we only have unlabeled data. The model learns a representation of the data. Unsupervised learning is frequently used to initialize the parameters of the model when we have a lot of unlabeled data and a small fraction of labeled data. We first train an unsupervised model and, after that, we use the weights of the model to train a supervised model.
+
+In reinforcement learning, the model has some input data and a reward depending on the output of the model. The model learns a policy that maximizes the reward. Reinforcement learning has been applied successfully to strategic games such as Go and even classic Atari video games."
+What is data augmentation? Can you give some examples?,"Data augmentation is a technique for synthesizing new data by modifying existing data in such a way that the target is not changed, or it is changed in a known way.
+
+Computer vision is one of fields where data augmentation is very useful. There are many modifications that we can do to images:
+
+Resize
+Horizontal or vertical flip
+Rotate
+Add noise
+Deform
+Modify colors Each problem needs a customized data augmentation pipeline. For example, on OCR, doing flips will change the text and won’t be beneficial; however, resizes and small rotations may help."
+What is Turing test?,"The Turing test is a method to test the machine’s ability to match the human level intelligence. A machine is used to challenge the human intelligence that when it passes the test, it is considered as intelligent. Yet a machine could be viewed as intelligent without sufficiently knowing about people to mimic a human."
+What is Precision?,"Precision (also called positive predictive value) is the fraction of relevant instances among the retrieved instances
+Precision = true positive / (true positive + false positive)"
+What is Recall?,Recall (also known as sensitivity) is the fraction of relevant instances that have been retrieved over the total amount of relevant instances. Recall = true positive / (true positive + false negative)
+Define F1-score.,"It is the weighted average of precision and recall. It considers both false positive and false negative into account. It is used to measure the model’s performance.
+F1-Score = 2 * (precision * recall) / (precision + recall)"
+What is cost function?,"Cost function is a scalar functions which Quantifies the error factor of the Neural Network. Lower the cost function better the Neural network. Eg: MNIST Data set to classify the image, input image is digit 2 and the Neural network wrongly predicts it to be 3"
+List different activation neurons or functions.,"Linear Neuron
+Binary Threshold Neuron
+Stochastic Binary Neuron
+Sigmoid Neuron
+Tanh function
+Rectified Linear Unit (ReLU)"
+Define Learning Rate.,Learning rate is a hyper-parameter that controls how much we are adjusting the weights of our network with respect the loss gradient.
+What is Momentum (w.r.t NN optimization)?,"Momentum lets the optimization algorithm remembers its last step, and adds some proportion of it to the current step. This way, even if the algorithm is stuck in a flat region, or a small local minimum, it can get out and continue towards the true minimum."
+What is the difference between Batch Gradient Descent and Stochastic Gradient Descent?,"Batch gradient descent computes the gradient using the whole dataset. This is great for convex, or relatively smooth error manifolds. In this case, we move somewhat directly towards an optimum solution, either local or global. Additionally, batch gradient descent, given an annealed learning rate, will eventually find the minimum located in it's basin of attraction.
+
+Stochastic gradient descent (SGD) computes the gradient using a single sample. SGD works well (Not well, I suppose, but better than batch gradient descent) for error manifolds that have lots of local maxima/minima. In this case, the somewhat noisier gradient calculated using the reduced number of samples tends to jerk the model out of local minima into a region that hopefully is more optimal."
+Epoch vs. Batch vs. Iteration.,"Epoch: one forward pass and one backward pass of all the training examples
+Batch: examples processed together in one pass (forward and backward)
+Iteration: number of training examples / Batch size"
+What is vanishing gradient?,"As we add more and more hidden layers, back propagation becomes less and less useful in passing information to the lower layers. In effect, as information is passed back, the gradients begin to vanish and become small relative to the weights of the networks."
+What are dropouts?,"Dropout is a simple way to prevent a neural network from overfitting. It is the dropping out of some of the units in a neural network. It is similar to the natural reproduction process, where the nature produces offsprings by combining distinct genes (dropping out others) rather than strengthening the co-adapting of them."
+Define LSTM.,"Long Short Term Memory – are explicitly designed to address the long term dependency problem, by maintaining a state what to remember and what to forget."
+List the key components of LSTM.,"Gates (forget, Memory, update & Read)
+tanh(x) (values between -1 to 1)
+Sigmoid(x) (values between 0 to 1)"
+List the variants of RNN.,"LSTM: Long Short Term Memory
+GRU: Gated Recurrent Unit
+End to End Network
+Memory Network"
+"What is Autoencoder, name few applications.","Auto encoder is basically used to learn a compressed form of given data. Few applications include
+
+Data denoising
+Dimensionality reduction
+Image reconstruction
+Image colorization"
+What are the components of GAN?,"Generator
+Discriminator"
+What's the difference between boosting and bagging?,"Boosting and bagging are similar, in that they are both ensembling techniques, where a number of weak learners (classifiers/regressors that are barely better than guessing) combine (through averaging or max vote) to create a strong learner that can make accurate predictions. Bagging means that you take bootstrap samples (with replacement) of your data set and each sample trains a (potentially) weak learner. Boosting, on the other hand, uses all data to train each learner, but instances that were misclassified by the previous learners are given more weight so that subsequent learners give more focus to them during training."
+Explain how a ROC curve works.,The ROC curve is a graphical representation of the contrast between true positive rates and the false positive rate at various thresholds. It’s often used as a proxy for the trade-off between the sensitivity of the model (true positives) vs the fall-out or the probability it will trigger a false alarm (false positives).
+What’s the difference between Type I and Type II error?,"Type I error is a false positive, while Type II error is a false negative. Briefly stated, Type I error means claiming something has happened when it hasn’t, while Type II error means that you claim nothing is happening when in fact something is. A clever way to think about this is to think of Type I error as telling a man he is pregnant, while Type II error means you tell a pregnant woman she isn’t carrying a baby."
+What’s the difference between a generative and discriminative model?,A generative model will learn categories of data while a discriminative model will simply learn the distinction between different categories of data. Discriminative models will generally outperform generative models on classification tasks.
+Instance-Based Versus Model-Based Learning.,"Instance-based Learning: The system learns the examples by heart, then generalizes to new cases using a similarity measure.
+
+Model-based Learning: Another way to generalize from a set of examples is to build a model of these examples, then use that model to make predictions. This is called model-based learning."
+When to use a Label Encoding vs. One Hot Encoding?,"This question generally depends on your dataset and the model which you wish to apply. But still, a few points to note before choosing the right encoding technique for your model:
+
+We apply One-Hot Encoding when:
+
+The categorical feature is not ordinal (like the countries above)
+The number of categorical features is less so one-hot encoding can be effectively applied
+We apply Label Encoding when:
+
+The categorical feature is ordinal (like Jr. kg, Sr. kg, Primary school, high school)
+The number of categories is quite large as one-hot encoding can lead to high memory consumption"
+What is the difference between LDA and PCA for dimensionality reduction?,"Both LDA and PCA are linear transformation techniques: LDA is a supervised whereas PCA is unsupervised – PCA ignores class labels.
+
+We can picture PCA as a technique that finds the directions of maximal variance. In contrast to PCA, LDA attempts to find a feature subspace that maximizes class separability."
+What is t-SNE?,"t-Distributed Stochastic Neighbor Embedding (t-SNE) is an unsupervised, non-linear technique primarily used for data exploration and visualizing high-dimensional data. In simpler terms, t-SNE gives you a feel or intuition of how the data is arranged in a high-dimensional space."
+What is the difference between t-SNE and PCA for dimensionality reduction?,"The first thing to note is that PCA was developed in 1933 while t-SNE was developed in 2008. A lot has changed in the world of data science since 1933 mainly in the realm of compute and size of data. Second, PCA is a linear dimension reduction technique that seeks to maximize variance and preserves large pairwise distances. In other words, things that are different end up far apart. This can lead to poor visualization especially when dealing with non-linear manifold structures. Think of a manifold structure as any geometric shape like: cylinder, ball, curve, etc.
+
+t-SNE differs from PCA by preserving only small pairwise distances or local similarities whereas PCA is concerned with preserving large pairwise distances to maximize variance."
+What is UMAP?,UMAP (Uniform Manifold Approximation and Projection) is a novel manifold learning technique for dimension reduction. UMAP is constructed from a theoretical framework based in Riemannian geometry and algebraic topology. The result is a practical scalable algorithm that applies to real world data.
+What is the difference between t-SNE and UMAP for dimensionality reduction?,"The biggest difference between the output of UMAP when compared with t-SNE is this balance between local and global structure - UMAP is often better at preserving global structure in the final projection. This means that the inter-cluster relations are potentially more meaningful than in t-SNE. However, it's important to note that, because UMAP and t-SNE both necessarily warp the high-dimensional shape of the data when projecting to lower dimensions, any given axis or distance in lower dimensions still isn’t directly interpretable in the way of techniques such as PCA."
+"How Random Number Generator Works, e.g. rand() function in python works?","It generates a pseudo random number based on the seed and there are some famous algorithm, please see below link for further information on this."
+"Given that we want to evaluate the performance of 'n' different machine learning models on the same data, why would the following splitting mechanism be incorrect :","def get_splits():
+    df = pd.DataFrame(...)
+    rnd = np.random.rand(len(df))
+    train = df[ rnd < 0.8 ]
+    valid = df[ rnd >= 0.8 & rnd < 0.9 ]
+    test = df[ rnd >= 0.9 ]
+
+    return train, valid, test
+
+#Model 1
+
+from sklearn.tree import DecisionTreeClassifier
+train, valid, test = get_splits()
+...
+
+#Model 2
+
+from sklearn.linear_model import LogisticRegression
+train, valid, test = get_splits()
+...
+The rand() function orders the data differently each time it is run, so if we run the splitting mechanism again, the 80% of the rows we get will be different from the ones we got the first time it was run. This presents an issue as we need to compare the performance of our models on the same test set. In order to ensure reproducible and consistent sampling we would have to set the random seed in advance or store the data once it is split. Alternatively, we could simply set the 'random_state' parameter in sklearn's train_test_split() function in order to get the same train, validation and test sets across different executions."
+What is the difference between Bayesian vs frequentist statistics?,"Frequentist statistics is a framework that focuses on estimating population parameters using sample statistics, and providing point estimates and confidence intervals.
+
+Bayesian statistics, on the other hand, is a framework that uses prior knowledge and information to update beliefs about a parameter or hypothesis, and provides probability distributions for parameters.
+
+The main difference is that Bayesian statistics incorporates prior knowledge and beliefs into the analysis, while frequentist statistics doesn't."
+What is the basic difference between LSTM and Transformers?,"LSTMs (Long Short Term Memory) models consist of RNN cells designed to store and manipulate information across time steps more efficiently. In contrast, Transformer models contain a stack of encoder and decoder layers, each consisting of self attention and feed-forward neural network components."
+What are RCNNs?,Recurrent Convolutional model is a model that is specially designed to make predictions using a sequence of images (more commonly also know as video). These models are used in object detection tasks in computer vision. The RCNN approach combines both region proposal techniques and convolutional neural networks (CNNs) to identify and locate objects within an image.
+What is the difference between stemming and lemmatization?,"Stemming and lemmatization are both techniques used in natural language processing to reduce words to their base form. The main difference between the two is that stemming is a crude heuristic process that chops off the ends of words, while lemmatization is a more sophisticated process that uses vocabulary and morphological analysis to determine the base form of a word. Lemmatization is more accurate but also more computationally expensive.
+
+Example: The word ""better""
+
+Stemming: The stem of the word ""better"" is likely to be ""better"" (e.g. by using Porter stemmer)
+Lemmatization: The base form of the word ""better"" is ""good"" (e.g. by using WordNetLemmatizer with POS tagger)"
+What do you know about Latent Semantic Indexing (LSI)?,Latent Semantic Indexing (LSI) is a technique used in NLP and information retrieval to extract the underlying meaning or concepts from a collection of text documents. LSI uses mathematical techniques such as Singular Value Decomposition (SVD) to identify patterns and relationships in the co-occurrence of words within a corpus of text. LSI is based on the idea that words that are used in similar context tend to have similar meanings.
+What do you know about Dependency Parsing?,"Dependency parsing is a technique used in natural language processing to analyze the grammatical structure of a sentence, and to identify the relationships between its words. It is used to build a directed graph where words are represented as nodes, and grammatical relationships between words are represented as edges. Each node has one parent and can have multiple children, representing the grammatical relations between the words.
+
+There are different algorithms for dependency parsing, such as the Earley parser, the CYK parser, and the shift-reduce parser."
+Name different approaches for text summarization.,"There are several different approaches to text summarization, including:
+
+Extractive summarization: Selects the most important sentences or phrases from the original text.
+Abstractive summarization: Generates new sentences that capture the key concepts and themes of the original text.
+Latent Semantic Analysis (LSA) based summarization: Uses LSA to identify the key concepts in a text.
+Latent Dirichlet Allocation (LDA) based summarization: Uses LDA to identify the topics in a text.
+Neural-based summarization: Uses deep neural networks to generate a summary.
+Each approach has its own strengths and weaknesses and the choice of the approach will depend on the specific use case and the quality of the summary desired."
+What approach would you use for part of speech tagging?,"There are a few different approaches that can be used for part-of-speech (POS) tagging, such as:
+
+Rule-based tagging: using pre-defined rules to tag text
+Statistical tagging: using statistical models to tag text
+Hybrid tagging: Combining rule-based and statistical methods
+Neural-based tagging: using deep neural networks to tag text"
+Explain what is a n-gram model.,"An n-gram model is a type of statistical language model used in NLP. It is based on the idea that the probability of a word in a sentence is dependent on the probability of the n-1 preceding words, where n is the number of words in the gram.
+
+The model represents the text as a sequence of n-grams, where each n-gram is a sequence of n words. The model uses the frequency of each n-gram in a large corpus of text to estimate the probability of each word in a sentence, based on the n-1 preceding words."
+Explain how TF-IDF measures word importance.,"TF-IDF (Term Frequency-Inverse Document Frequency) is a statistical measure used to evaluate the importance of a word in a document or collection of documents. It is calculated as the product of the term frequency (TF) and the inverse document frequency (IDF) of a word.
+
+The term frequency (TF) of a word is the number of times the word appears in a document, normalized by the total number of words in the document.
+
+The inverse document frequency (IDF) of a word is the logarithm of the total number of documents in the corpus divided by the number of documents in which the word appears."
+What is perplexity used for?,"Perplexity is a statistical measure used to evaluate the quality of a probability model, particularly language models. It is used to quantify the uncertainty of a model when predicting the next word in a sequence of words. The lower the perplexity, the better the model is at predicting the sequence of words.
+
+Sure, here's the formula for perplexity in LaTeX format:
+
+Perplexity = 
+2
+H
+(
+D
+)
+
+H
+(
+D
+)
+=
+−
+∑
+i
+=
+1
+N
+P
+(
+w
+i
+)
+l
+o
+g
+2
+P
+(
+w
+i
+)
+ ref
+
+w
+i
+ = the i-th word in the sequence
+
+N
+ = the number of words in the sequence
+
+P
+(
+w
+i
+)
+ = the probability of the i-th word according to the model"
+What is Bag-of-Worrds model?,"The bag-of-words model is a representation of text data where a text is represented as a bag (multiset) of its words, disregarding grammar and word order but keeping track of the frequency of each word. It is simple to implement and computationally efficient, but it discards grammatical information and word order, which can be important for some NLP tasks."
+Explain how the Markov assumption affects the bi-gram model?,"The Markov assumption is an important concept in the bi-gram model, it states that the probability of a word in a sentence depends only on the preceding word. The Markov assumption simplifies the bi-gram model by reducing the number of variables that need to be considered, making the model computationally efficient, but it also limits the context that the model takes into account, which can lead to errors in the probability estimates. In practice, increasing the order of the n-gram model can be used to increase the context taken into account, thus increasing the model's accuracy."
+What are the most common word embedding methods? explain each briefly.,"Common word embedding methods include:
+
+Count-based methods: Create embeddings by counting the co-occurrence of words in a corpus. Example: Latent Semantic Analysis (LSA)
+Prediction-based methods: Create embeddings by training a model to predict a target word based on its surrounding context. Example: Continuous Bag-of-Words (CBOW) and Word2Vec
+Hybrid methods: Combine both co-occurrence and context to generate embeddings. Example: GloVe (Global Vectors for Word Representation)
+Neural Language Model based methods: Create embeddings by training a neural network-based language model on a large corpus of text. Example: BERT (Bidirectional Encoder Representations from Transformers)"
+What are the first few steps that you will take before applying an NLP algorithm to a given corpus?,"Text pre-processing: Clean and transform the text into a format that can be processed by the model. Specific methods include: Removing special characters, lowercasing, removing stop words.
+
+Tokenization: Break the text into individual words or phrases that can be used as input. Specific methods include: word tokenization, sentence tokenization, and n-gram tokenization.
+
+Text normalization: Transform the text into a consistent format. Specific methods include: stemming, lemmatization.
+
+Feature extraction: Select relevant features from the text to be used as input. Specific methods include: creating a vocabulary of the most common words in the corpus, creating a term-document matrix.
+
+Splitting the data: Divide the data into training, validation and testing sets.
+
+Annotating the data: Manually tag the data with relevant information. Specific methods include: POS tagging, NER tagging, and so on."
+List a few types of linguistic ambiguities.,"Lexical ambiguity: A word has multiple meanings. Example: ""bass"" can refer to a type of fish or a low-frequency sound.
+
+Syntactic ambiguity: A sentence can be parsed in more than one way. Example: ""I saw the man with the telescope"" can mean that the speaker saw a man who had a telescope or the speaker saw a man through a telescope.
+
+Semantic ambiguity: A word or phrase can have more than one meaning in a given context. Example: ""bank"" can refer to a financial institution or the edge of a river.
+
+Pragmatic ambiguity: A sentence can have different interpretations depending on the speaker's intended meaning. Example: ""I'm fine"" can mean that the speaker is feeling well or that the speaker does not want to talk about their feelings.
+
+Anaphora resolution: A pronoun or noun phrase refers to an antecedent with multiple possible referents.
+
+Homonymy: Words that are written and pronounced the same but have different meanings. Example: ""bass"" as a type of fish and a low-frequency sound
+
+Polysemy: words that have multiple meanings but are related in some way. Example: ""bass"" as a low-frequency sound and the bass guitar."

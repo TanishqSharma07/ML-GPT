@@ -1,0 +1,8 @@
+bitsandbytes 
+transformers 
+peft 
+accelerate 
+datasets 
+scipy 
+einops  
+trl
